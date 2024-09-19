@@ -1,0 +1,4575 @@
+title: DJPRS Mix
+originalAuthor: Mikote111
+description: The DJPRS mod remastered in HD for the PC version!
+assets:
+- name: msg/us/sys.bar
+  method: binarc
+  package: kh2_first
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/us/sys.yml
+      language: text
+- name: msg/sp/sys.bar
+  method: binarc
+  package: kh2_first
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sp/sys.yml
+      language: text
+- name: msg/it/sys.bar
+  method: binarc
+  package: kh2_first
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/it/sys.yml
+      language: text
+- name: msg/gr/sys.bar
+  method: binarc
+  package: kh2_first
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/gr/sys.yml
+      language: text
+- name: msg/fr/sys.bar
+  method: binarc
+  package: kh2_first
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/fr/sys.yml
+      language: text
+
+#Field2d FILES
+- name: field2d/us/al0field.2dd
+  multi:
+  - name: field2d/us/bb0field.2dd
+  - name: field2d/us/ca0field.2dd
+  - name: field2d/us/dc0field.2dd
+  - name: field2d/us/di0field.2dd
+  - name: field2d/us/eh0field.2dd
+  - name: field2d/us/es0field.2dd
+  - name: field2d/us/hb0field.2dd
+  - name: field2d/us/he0field.2dd
+  - name: field2d/us/lk0field.2dd
+  - name: field2d/us/lm0field.2dd
+  - name: field2d/us/mu0field.2dd
+  - name: field2d/us/nm0field.2dd
+  - name: field2d/us/po0field.2dd
+  - name: field2d/us/tr0field.2dd
+  - name: field2d/us/tt0field.2dd
+  - name: field2d/us/wi0field.2dd
+  - name: field2d/us/wm0field.2dd
+  - name: field2d/us/zz0field.2dd
+  - name: field2d/sp/al0field.2dd
+  - name: field2d/sp/bb0field.2dd
+  - name: field2d/sp/ca0field.2dd
+  - name: field2d/sp/dc0field.2dd
+  - name: field2d/sp/di0field.2dd
+  - name: field2d/sp/eh0field.2dd
+  - name: field2d/sp/es0field.2dd
+  - name: field2d/sp/hb0field.2dd
+  - name: field2d/sp/he0field.2dd
+  - name: field2d/sp/lk0field.2dd
+  - name: field2d/sp/lm0field.2dd
+  - name: field2d/sp/mu0field.2dd
+  - name: field2d/sp/nm0field.2dd
+  - name: field2d/sp/po0field.2dd
+  - name: field2d/sp/tr0field.2dd
+  - name: field2d/sp/tt0field.2dd
+  - name: field2d/sp/wi0field.2dd
+  - name: field2d/sp/wm0field.2dd
+  - name: field2d/sp/zz0field.2dd
+  - name: field2d/it/al0field.2dd
+  - name: field2d/it/bb0field.2dd
+  - name: field2d/it/ca0field.2dd
+  - name: field2d/it/dc0field.2dd
+  - name: field2d/it/di0field.2dd
+  - name: field2d/it/eh0field.2dd
+  - name: field2d/it/es0field.2dd
+  - name: field2d/it/hb0field.2dd
+  - name: field2d/it/he0field.2dd
+  - name: field2d/it/lk0field.2dd
+  - name: field2d/it/lm0field.2dd
+  - name: field2d/it/mu0field.2dd
+  - name: field2d/it/nm0field.2dd
+  - name: field2d/it/po0field.2dd
+  - name: field2d/it/tr0field.2dd
+  - name: field2d/it/tt0field.2dd
+  - name: field2d/it/wi0field.2dd
+  - name: field2d/it/wm0field.2dd
+  - name: field2d/it/zz0field.2dd
+  - name: field2d/gr/al0field.2dd
+  - name: field2d/gr/bb0field.2dd
+  - name: field2d/gr/ca0field.2dd
+  - name: field2d/gr/dc0field.2dd
+  - name: field2d/gr/di0field.2dd
+  - name: field2d/gr/eh0field.2dd
+  - name: field2d/gr/es0field.2dd
+  - name: field2d/gr/hb0field.2dd
+  - name: field2d/gr/he0field.2dd
+  - name: field2d/gr/lk0field.2dd
+  - name: field2d/gr/lm0field.2dd
+  - name: field2d/gr/mu0field.2dd
+  - name: field2d/gr/nm0field.2dd
+  - name: field2d/gr/po0field.2dd
+  - name: field2d/gr/tr0field.2dd
+  - name: field2d/gr/tt0field.2dd
+  - name: field2d/gr/wi0field.2dd
+  - name: field2d/gr/wm0field.2dd
+  - name: field2d/gr/zz0field.2dd
+  - name: field2d/fr/al0field.2dd
+  - name: field2d/fr/bb0field.2dd
+  - name: field2d/fr/ca0field.2dd
+  - name: field2d/fr/dc0field.2dd
+  - name: field2d/fr/di0field.2dd
+  - name: field2d/fr/eh0field.2dd
+  - name: field2d/fr/es0field.2dd
+  - name: field2d/fr/hb0field.2dd
+  - name: field2d/fr/he0field.2dd
+  - name: field2d/fr/lk0field.2dd
+  - name: field2d/fr/lm0field.2dd
+  - name: field2d/fr/mu0field.2dd
+  - name: field2d/fr/nm0field.2dd
+  - name: field2d/fr/po0field.2dd
+  - name: field2d/fr/tr0field.2dd
+  - name: field2d/fr/tt0field.2dd
+  - name: field2d/fr/wi0field.2dd
+  - name: field2d/fr/wm0field.2dd
+  - name: field2d/fr/zz0field.2dd
+  platform: pc
+  method: copy
+  source:
+  - name: field2d/zz0field.2dd
+
+#Field2d TEX
+- name: remastered/field2d/us/al0field.2dd/US_al0field_2dd0.png
+  multi:
+  - name: remastered/field2d/us/bb0field.2dd/US_bb0field_2dd0.png
+  - name: remastered/field2d/us/ca0field.2dd/US_ca0field_2dd0.png
+  - name: remastered/field2d/us/dc0field.2dd/US_dc0field_2dd0.png
+  - name: remastered/field2d/us/di0field.2dd/US_di0field_2dd0.png
+  - name: remastered/field2d/us/eh0field.2dd/US_eh0field_2dd0.png
+  - name: remastered/field2d/us/es0field.2dd/US_es0field_2dd0.png
+  - name: remastered/field2d/us/hb0field.2dd/US_hb0field_2dd0.png
+  - name: remastered/field2d/us/he0field.2dd/US_he0field_2dd0.png
+  - name: remastered/field2d/us/lk0field.2dd/US_lk0field_2dd0.png
+  - name: remastered/field2d/us/lm0field.2dd/US_lm0field_2dd0.png
+  - name: remastered/field2d/us/mu0field.2dd/US_mu0field_2dd0.png
+  - name: remastered/field2d/us/nm0field.2dd/US_nm0field_2dd0.png
+  - name: remastered/field2d/us/po0field.2dd/US_po0field_2dd0.png
+  - name: remastered/field2d/us/tr0field.2dd/US_tr0field_2dd0.png
+  - name: remastered/field2d/us/tt0field.2dd/US_tt0field_2dd0.png
+  - name: remastered/field2d/us/wi0field.2dd/US_wi0field_2dd0.png
+  - name: remastered/field2d/us/wm0field.2dd/US_wm0field_2dd0.png
+  - name: remastered/field2d/us/zz0field.2dd/US_zz0field_2dd0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_zz0field_2dd0.png
+- name: remastered/field2d/sp/al0field.2dd/SP_al0field_2dd0.png
+  multi:
+  - name: remastered/field2d/sp/bb0field.2dd/SP_bb0field_2dd0.png
+  - name: remastered/field2d/sp/ca0field.2dd/SP_ca0field_2dd0.png
+  - name: remastered/field2d/sp/dc0field.2dd/SP_dc0field_2dd0.png
+  - name: remastered/field2d/sp/di0field.2dd/SP_di0field_2dd0.png
+  - name: remastered/field2d/sp/eh0field.2dd/SP_eh0field_2dd0.png
+  - name: remastered/field2d/sp/es0field.2dd/SP_es0field_2dd0.png
+  - name: remastered/field2d/sp/hb0field.2dd/SP_hb0field_2dd0.png
+  - name: remastered/field2d/sp/he0field.2dd/SP_he0field_2dd0.png
+  - name: remastered/field2d/sp/lk0field.2dd/SP_lk0field_2dd0.png
+  - name: remastered/field2d/sp/lm0field.2dd/SP_lm0field_2dd0.png
+  - name: remastered/field2d/sp/mu0field.2dd/SP_mu0field_2dd0.png
+  - name: remastered/field2d/sp/nm0field.2dd/SP_nm0field_2dd0.png
+  - name: remastered/field2d/sp/po0field.2dd/SP_po0field_2dd0.png
+  - name: remastered/field2d/sp/tr0field.2dd/SP_tr0field_2dd0.png
+  - name: remastered/field2d/sp/tt0field.2dd/SP_tt0field_2dd0.png
+  - name: remastered/field2d/sp/wi0field.2dd/SP_wi0field_2dd0.png
+  - name: remastered/field2d/sp/wm0field.2dd/SP_wm0field_2dd0.png
+  - name: remastered/field2d/sp/zz0field.2dd/SP_zz0field_2dd0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/SP_zz0field_2dd0.png
+- name: remastered/field2d/it/al0field.2dd/IT_al0field_2dd0.png
+  multi:
+  - name: remastered/field2d/it/bb0field.2dd/IT_bb0field_2dd0.png
+  - name: remastered/field2d/it/ca0field.2dd/IT_ca0field_2dd0.png
+  - name: remastered/field2d/it/dc0field.2dd/IT_dc0field_2dd0.png
+  - name: remastered/field2d/it/di0field.2dd/IT_di0field_2dd0.png
+  - name: remastered/field2d/it/eh0field.2dd/IT_eh0field_2dd0.png
+  - name: remastered/field2d/it/es0field.2dd/IT_es0field_2dd0.png
+  - name: remastered/field2d/it/hb0field.2dd/IT_hb0field_2dd0.png
+  - name: remastered/field2d/it/he0field.2dd/IT_he0field_2dd0.png
+  - name: remastered/field2d/it/lk0field.2dd/IT_lk0field_2dd0.png
+  - name: remastered/field2d/it/lm0field.2dd/IT_lm0field_2dd0.png
+  - name: remastered/field2d/it/mu0field.2dd/IT_mu0field_2dd0.png
+  - name: remastered/field2d/it/nm0field.2dd/IT_nm0field_2dd0.png
+  - name: remastered/field2d/it/po0field.2dd/IT_po0field_2dd0.png
+  - name: remastered/field2d/it/tr0field.2dd/IT_tr0field_2dd0.png
+  - name: remastered/field2d/it/tt0field.2dd/IT_tt0field_2dd0.png
+  - name: remastered/field2d/it/wi0field.2dd/IT_wi0field_2dd0.png
+  - name: remastered/field2d/it/wm0field.2dd/IT_wm0field_2dd0.png
+  - name: remastered/field2d/it/zz0field.2dd/IT_zz0field_2dd0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/IT_zz0field_2dd0.png
+- name: remastered/field2d/gr/al0field.2dd/GR_al0field_2dd0.png
+  multi:
+  - name: remastered/field2d/gr/bb0field.2dd/GR_bb0field_2dd0.png
+  - name: remastered/field2d/gr/ca0field.2dd/GR_ca0field_2dd0.png
+  - name: remastered/field2d/gr/dc0field.2dd/GR_dc0field_2dd0.png
+  - name: remastered/field2d/gr/di0field.2dd/GR_di0field_2dd0.png
+  - name: remastered/field2d/gr/eh0field.2dd/GR_eh0field_2dd0.png
+  - name: remastered/field2d/gr/es0field.2dd/GR_es0field_2dd0.png
+  - name: remastered/field2d/gr/hb0field.2dd/GR_hb0field_2dd0.png
+  - name: remastered/field2d/gr/he0field.2dd/GR_he0field_2dd0.png
+  - name: remastered/field2d/gr/lk0field.2dd/GR_lk0field_2dd0.png
+  - name: remastered/field2d/gr/lm0field.2dd/GR_lm0field_2dd0.png
+  - name: remastered/field2d/gr/mu0field.2dd/GR_mu0field_2dd0.png
+  - name: remastered/field2d/gr/nm0field.2dd/GR_nm0field_2dd0.png
+  - name: remastered/field2d/gr/po0field.2dd/GR_po0field_2dd0.png
+  - name: remastered/field2d/gr/tr0field.2dd/GR_tr0field_2dd0.png
+  - name: remastered/field2d/gr/tt0field.2dd/GR_tt0field_2dd0.png
+  - name: remastered/field2d/gr/wi0field.2dd/GR_wi0field_2dd0.png
+  - name: remastered/field2d/gr/wm0field.2dd/GR_wm0field_2dd0.png
+  - name: remastered/field2d/gr/zz0field.2dd/GR_zz0field_2dd0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/GR_zz0field_2dd0.png
+- name: remastered/field2d/fr/al0field.2dd/FR_al0field_2dd0.png
+  multi:
+  - name: remastered/field2d/fr/bb0field.2dd/FR_bb0field_2dd0.png
+  - name: remastered/field2d/fr/ca0field.2dd/FR_ca0field_2dd0.png
+  - name: remastered/field2d/fr/dc0field.2dd/FR_dc0field_2dd0.png
+  - name: remastered/field2d/fr/di0field.2dd/FR_di0field_2dd0.png
+  - name: remastered/field2d/fr/eh0field.2dd/FR_eh0field_2dd0.png
+  - name: remastered/field2d/fr/es0field.2dd/FR_es0field_2dd0.png
+  - name: remastered/field2d/fr/hb0field.2dd/FR_hb0field_2dd0.png
+  - name: remastered/field2d/fr/he0field.2dd/FR_he0field_2dd0.png
+  - name: remastered/field2d/fr/lk0field.2dd/FR_lk0field_2dd0.png
+  - name: remastered/field2d/fr/lm0field.2dd/FR_lm0field_2dd0.png
+  - name: remastered/field2d/fr/mu0field.2dd/FR_mu0field_2dd0.png
+  - name: remastered/field2d/fr/nm0field.2dd/FR_nm0field_2dd0.png
+  - name: remastered/field2d/fr/po0field.2dd/FR_po0field_2dd0.png
+  - name: remastered/field2d/fr/tr0field.2dd/FR_tr0field_2dd0.png
+  - name: remastered/field2d/fr/tt0field.2dd/FR_tt0field_2dd0.png
+  - name: remastered/field2d/fr/wi0field.2dd/FR_wi0field_2dd0.png
+  - name: remastered/field2d/fr/wm0field.2dd/FR_wm0field_2dd0.png
+  - name: remastered/field2d/fr/zz0field.2dd/FR_zz0field_2dd0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/FR_zz0field_2dd0.png
+- name: remastered/field2d/us/al0field.2dd/US_al0field_2dd1.png
+  multi:
+  - name: remastered/field2d/us/bb0field.2dd/US_bb0field_2dd1.png
+  - name: remastered/field2d/us/ca0field.2dd/US_ca0field_2dd1.png
+  - name: remastered/field2d/us/dc0field.2dd/US_dc0field_2dd1.png
+  - name: remastered/field2d/us/di0field.2dd/US_di0field_2dd1.png
+  - name: remastered/field2d/us/eh0field.2dd/US_eh0field_2dd1.png
+  - name: remastered/field2d/us/es0field.2dd/US_es0field_2dd1.png
+  - name: remastered/field2d/us/hb0field.2dd/US_hb0field_2dd1.png
+  - name: remastered/field2d/us/he0field.2dd/US_he0field_2dd1.png
+  - name: remastered/field2d/us/lk0field.2dd/US_lk0field_2dd1.png
+  - name: remastered/field2d/us/lm0field.2dd/US_lm0field_2dd1.png
+  - name: remastered/field2d/us/mu0field.2dd/US_mu0field_2dd1.png
+  - name: remastered/field2d/us/nm0field.2dd/US_nm0field_2dd1.png
+  - name: remastered/field2d/us/po0field.2dd/US_po0field_2dd1.png
+  - name: remastered/field2d/us/tr0field.2dd/US_tr0field_2dd1.png
+  - name: remastered/field2d/us/tt0field.2dd/US_tt0field_2dd1.png
+  - name: remastered/field2d/us/wi0field.2dd/US_wi0field_2dd1.png
+  - name: remastered/field2d/us/wm0field.2dd/US_wm0field_2dd1.png
+  - name: remastered/field2d/us/zz0field.2dd/US_zz0field_2dd1.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_zz0field_2dd1.png
+- name: remastered/field2d/sp/al0field.2dd/SP_al0field_2dd1.png
+  multi:
+  - name: remastered/field2d/sp/bb0field.2dd/SP_bb0field_2dd1.png
+  - name: remastered/field2d/sp/ca0field.2dd/SP_ca0field_2dd1.png
+  - name: remastered/field2d/sp/dc0field.2dd/SP_dc0field_2dd1.png
+  - name: remastered/field2d/sp/di0field.2dd/SP_di0field_2dd1.png
+  - name: remastered/field2d/sp/eh0field.2dd/SP_eh0field_2dd1.png
+  - name: remastered/field2d/sp/es0field.2dd/SP_es0field_2dd1.png
+  - name: remastered/field2d/sp/hb0field.2dd/SP_hb0field_2dd1.png
+  - name: remastered/field2d/sp/he0field.2dd/SP_he0field_2dd1.png
+  - name: remastered/field2d/sp/lk0field.2dd/SP_lk0field_2dd1.png
+  - name: remastered/field2d/sp/lm0field.2dd/SP_lm0field_2dd1.png
+  - name: remastered/field2d/sp/mu0field.2dd/SP_mu0field_2dd1.png
+  - name: remastered/field2d/sp/nm0field.2dd/SP_nm0field_2dd1.png
+  - name: remastered/field2d/sp/po0field.2dd/SP_po0field_2dd1.png
+  - name: remastered/field2d/sp/tr0field.2dd/SP_tr0field_2dd1.png
+  - name: remastered/field2d/sp/tt0field.2dd/SP_tt0field_2dd1.png
+  - name: remastered/field2d/sp/wi0field.2dd/SP_wi0field_2dd1.png
+  - name: remastered/field2d/sp/wm0field.2dd/SP_wm0field_2dd1.png
+  - name: remastered/field2d/sp/zz0field.2dd/SP_zz0field_2dd1.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/SP_zz0field_2dd1.png
+- name: remastered/field2d/it/al0field.2dd/IT_al0field_2dd1.png
+  multi:
+  - name: remastered/field2d/it/bb0field.2dd/IT_bb0field_2dd1.png
+  - name: remastered/field2d/it/ca0field.2dd/IT_ca0field_2dd1.png
+  - name: remastered/field2d/it/dc0field.2dd/IT_dc0field_2dd1.png
+  - name: remastered/field2d/it/di0field.2dd/IT_di0field_2dd1.png
+  - name: remastered/field2d/it/eh0field.2dd/IT_eh0field_2dd1.png
+  - name: remastered/field2d/it/es0field.2dd/IT_es0field_2dd1.png
+  - name: remastered/field2d/it/hb0field.2dd/IT_hb0field_2dd1.png
+  - name: remastered/field2d/it/he0field.2dd/IT_he0field_2dd1.png
+  - name: remastered/field2d/it/lk0field.2dd/IT_lk0field_2dd1.png
+  - name: remastered/field2d/it/lm0field.2dd/IT_lm0field_2dd1.png
+  - name: remastered/field2d/it/mu0field.2dd/IT_mu0field_2dd1.png
+  - name: remastered/field2d/it/nm0field.2dd/IT_nm0field_2dd1.png
+  - name: remastered/field2d/it/po0field.2dd/IT_po0field_2dd1.png
+  - name: remastered/field2d/it/tr0field.2dd/IT_tr0field_2dd1.png
+  - name: remastered/field2d/it/tt0field.2dd/IT_tt0field_2dd1.png
+  - name: remastered/field2d/it/wi0field.2dd/IT_wi0field_2dd1.png
+  - name: remastered/field2d/it/wm0field.2dd/IT_wm0field_2dd1.png
+  - name: remastered/field2d/it/zz0field.2dd/IT_zz0field_2dd1.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/IT_zz0field_2dd1.png
+- name: remastered/field2d/gr/al0field.2dd/GR_al0field_2dd1.png
+  multi:
+  - name: remastered/field2d/gr/bb0field.2dd/GR_bb0field_2dd1.png
+  - name: remastered/field2d/gr/ca0field.2dd/GR_ca0field_2dd1.png
+  - name: remastered/field2d/gr/dc0field.2dd/GR_dc0field_2dd1.png
+  - name: remastered/field2d/gr/di0field.2dd/GR_di0field_2dd1.png
+  - name: remastered/field2d/gr/eh0field.2dd/GR_eh0field_2dd1.png
+  - name: remastered/field2d/gr/es0field.2dd/GR_es0field_2dd1.png
+  - name: remastered/field2d/gr/hb0field.2dd/GR_hb0field_2dd1.png
+  - name: remastered/field2d/gr/he0field.2dd/GR_he0field_2dd1.png
+  - name: remastered/field2d/gr/lk0field.2dd/GR_lk0field_2dd1.png
+  - name: remastered/field2d/gr/lm0field.2dd/GR_lm0field_2dd1.png
+  - name: remastered/field2d/gr/mu0field.2dd/GR_mu0field_2dd1.png
+  - name: remastered/field2d/gr/nm0field.2dd/GR_nm0field_2dd1.png
+  - name: remastered/field2d/gr/po0field.2dd/GR_po0field_2dd1.png
+  - name: remastered/field2d/gr/tr0field.2dd/GR_tr0field_2dd1.png
+  - name: remastered/field2d/gr/tt0field.2dd/GR_tt0field_2dd1.png
+  - name: remastered/field2d/gr/wi0field.2dd/GR_wi0field_2dd1.png
+  - name: remastered/field2d/gr/wm0field.2dd/GR_wm0field_2dd1.png
+  - name: remastered/field2d/gr/zz0field.2dd/GR_zz0field_2dd1.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/GR_zz0field_2dd1.png
+- name: remastered/field2d/fr/al0field.2dd/FR_al0field_2dd1.png
+  multi:
+  - name: remastered/field2d/fr/bb0field.2dd/FR_bb0field_2dd1.png
+  - name: remastered/field2d/fr/ca0field.2dd/FR_ca0field_2dd1.png
+  - name: remastered/field2d/fr/dc0field.2dd/FR_dc0field_2dd1.png
+  - name: remastered/field2d/fr/di0field.2dd/FR_di0field_2dd1.png
+  - name: remastered/field2d/fr/eh0field.2dd/FR_eh0field_2dd1.png
+  - name: remastered/field2d/fr/es0field.2dd/FR_es0field_2dd1.png
+  - name: remastered/field2d/fr/hb0field.2dd/FR_hb0field_2dd1.png
+  - name: remastered/field2d/fr/he0field.2dd/FR_he0field_2dd1.png
+  - name: remastered/field2d/fr/lk0field.2dd/FR_lk0field_2dd1.png
+  - name: remastered/field2d/fr/lm0field.2dd/FR_lm0field_2dd1.png
+  - name: remastered/field2d/fr/mu0field.2dd/FR_mu0field_2dd1.png
+  - name: remastered/field2d/fr/nm0field.2dd/FR_nm0field_2dd1.png
+  - name: remastered/field2d/fr/po0field.2dd/FR_po0field_2dd1.png
+  - name: remastered/field2d/fr/tr0field.2dd/FR_tr0field_2dd1.png
+  - name: remastered/field2d/fr/tt0field.2dd/FR_tt0field_2dd1.png
+  - name: remastered/field2d/fr/wi0field.2dd/FR_wi0field_2dd1.png
+  - name: remastered/field2d/fr/wm0field.2dd/FR_wm0field_2dd1.png
+  - name: remastered/field2d/fr/zz0field.2dd/FR_zz0field_2dd1.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/FR_zz0field_2dd1.png
+- name: remastered/field2d/us/al0field.2dd/US_al0field_2dd3.png
+  multi:
+  - name: remastered/field2d/us/bb0field.2dd/US_bb0field_2dd3.png
+  - name: remastered/field2d/us/ca0field.2dd/US_ca0field_2dd3.png
+  - name: remastered/field2d/us/dc0field.2dd/US_dc0field_2dd3.png
+  - name: remastered/field2d/us/di0field.2dd/US_di0field_2dd3.png
+  - name: remastered/field2d/us/eh0field.2dd/US_eh0field_2dd3.png
+  - name: remastered/field2d/us/es0field.2dd/US_es0field_2dd3.png
+  - name: remastered/field2d/us/hb0field.2dd/US_hb0field_2dd3.png
+  - name: remastered/field2d/us/he0field.2dd/US_he0field_2dd3.png
+  - name: remastered/field2d/us/lk0field.2dd/US_lk0field_2dd3.png
+  - name: remastered/field2d/us/lm0field.2dd/US_lm0field_2dd3.png
+  - name: remastered/field2d/us/mu0field.2dd/US_mu0field_2dd3.png
+  - name: remastered/field2d/us/nm0field.2dd/US_nm0field_2dd3.png
+  - name: remastered/field2d/us/po0field.2dd/US_po0field_2dd3.png
+  - name: remastered/field2d/us/tr0field.2dd/US_tr0field_2dd3.png
+  - name: remastered/field2d/us/tt0field.2dd/US_tt0field_2dd3.png
+  - name: remastered/field2d/us/wi0field.2dd/US_wi0field_2dd3.png
+  - name: remastered/field2d/us/wm0field.2dd/US_wm0field_2dd3.png
+  - name: remastered/field2d/us/zz0field.2dd/US_zz0field_2dd3.png
+  - name: remastered/field2d/sp/al0field.2dd/SP_al0field_2dd3.png
+  - name: remastered/field2d/sp/bb0field.2dd/SP_bb0field_2dd3.png
+  - name: remastered/field2d/sp/ca0field.2dd/SP_ca0field_2dd3.png
+  - name: remastered/field2d/sp/dc0field.2dd/SP_dc0field_2dd3.png
+  - name: remastered/field2d/sp/di0field.2dd/SP_di0field_2dd3.png
+  - name: remastered/field2d/sp/eh0field.2dd/SP_eh0field_2dd3.png
+  - name: remastered/field2d/sp/es0field.2dd/SP_es0field_2dd3.png
+  - name: remastered/field2d/sp/hb0field.2dd/SP_hb0field_2dd3.png
+  - name: remastered/field2d/sp/he0field.2dd/SP_he0field_2dd3.png
+  - name: remastered/field2d/sp/lk0field.2dd/SP_lk0field_2dd3.png
+  - name: remastered/field2d/sp/lm0field.2dd/SP_lm0field_2dd3.png
+  - name: remastered/field2d/sp/mu0field.2dd/SP_mu0field_2dd3.png
+  - name: remastered/field2d/sp/nm0field.2dd/SP_nm0field_2dd3.png
+  - name: remastered/field2d/sp/po0field.2dd/SP_po0field_2dd3.png
+  - name: remastered/field2d/sp/tr0field.2dd/SP_tr0field_2dd3.png
+  - name: remastered/field2d/sp/tt0field.2dd/SP_tt0field_2dd3.png
+  - name: remastered/field2d/sp/wi0field.2dd/SP_wi0field_2dd3.png
+  - name: remastered/field2d/sp/wm0field.2dd/SP_wm0field_2dd3.png
+  - name: remastered/field2d/sp/zz0field.2dd/SP_zz0field_2dd3.png
+  - name: remastered/field2d/it/al0field.2dd/IT_al0field_2dd3.png
+  - name: remastered/field2d/it/bb0field.2dd/IT_bb0field_2dd3.png
+  - name: remastered/field2d/it/ca0field.2dd/IT_ca0field_2dd3.png
+  - name: remastered/field2d/it/dc0field.2dd/IT_dc0field_2dd3.png
+  - name: remastered/field2d/it/di0field.2dd/IT_di0field_2dd3.png
+  - name: remastered/field2d/it/eh0field.2dd/IT_eh0field_2dd3.png
+  - name: remastered/field2d/it/es0field.2dd/IT_es0field_2dd3.png
+  - name: remastered/field2d/it/hb0field.2dd/IT_hb0field_2dd3.png
+  - name: remastered/field2d/it/he0field.2dd/IT_he0field_2dd3.png
+  - name: remastered/field2d/it/lk0field.2dd/IT_lk0field_2dd3.png
+  - name: remastered/field2d/it/lm0field.2dd/IT_lm0field_2dd3.png
+  - name: remastered/field2d/it/mu0field.2dd/IT_mu0field_2dd3.png
+  - name: remastered/field2d/it/nm0field.2dd/IT_nm0field_2dd3.png
+  - name: remastered/field2d/it/po0field.2dd/IT_po0field_2dd3.png
+  - name: remastered/field2d/it/tr0field.2dd/IT_tr0field_2dd3.png
+  - name: remastered/field2d/it/tt0field.2dd/IT_tt0field_2dd3.png
+  - name: remastered/field2d/it/wi0field.2dd/IT_wi0field_2dd3.png
+  - name: remastered/field2d/it/wm0field.2dd/IT_wm0field_2dd3.png
+  - name: remastered/field2d/it/zz0field.2dd/IT_zz0field_2dd3.png
+  - name: remastered/field2d/gr/al0field.2dd/GR_al0field_2dd3.png
+  - name: remastered/field2d/gr/bb0field.2dd/GR_bb0field_2dd3.png
+  - name: remastered/field2d/gr/ca0field.2dd/GR_ca0field_2dd3.png
+  - name: remastered/field2d/gr/dc0field.2dd/GR_dc0field_2dd3.png
+  - name: remastered/field2d/gr/di0field.2dd/GR_di0field_2dd3.png
+  - name: remastered/field2d/gr/eh0field.2dd/GR_eh0field_2dd3.png
+  - name: remastered/field2d/gr/es0field.2dd/GR_es0field_2dd3.png
+  - name: remastered/field2d/gr/hb0field.2dd/GR_hb0field_2dd3.png
+  - name: remastered/field2d/gr/he0field.2dd/GR_he0field_2dd3.png
+  - name: remastered/field2d/gr/lk0field.2dd/GR_lk0field_2dd3.png
+  - name: remastered/field2d/gr/lm0field.2dd/GR_lm0field_2dd3.png
+  - name: remastered/field2d/gr/mu0field.2dd/GR_mu0field_2dd3.png
+  - name: remastered/field2d/gr/nm0field.2dd/GR_nm0field_2dd3.png
+  - name: remastered/field2d/gr/po0field.2dd/GR_po0field_2dd3.png
+  - name: remastered/field2d/gr/tr0field.2dd/GR_tr0field_2dd3.png
+  - name: remastered/field2d/gr/tt0field.2dd/GR_tt0field_2dd3.png
+  - name: remastered/field2d/gr/wi0field.2dd/GR_wi0field_2dd3.png
+  - name: remastered/field2d/gr/wm0field.2dd/GR_wm0field_2dd3.png
+  - name: remastered/field2d/gr/zz0field.2dd/GR_zz0field_2dd3.png
+  - name: remastered/field2d/fr/al0field.2dd/FR_al0field_2dd3.png
+  - name: remastered/field2d/fr/bb0field.2dd/FR_bb0field_2dd3.png
+  - name: remastered/field2d/fr/ca0field.2dd/FR_ca0field_2dd3.png
+  - name: remastered/field2d/fr/dc0field.2dd/FR_dc0field_2dd3.png
+  - name: remastered/field2d/fr/di0field.2dd/FR_di0field_2dd3.png
+  - name: remastered/field2d/fr/eh0field.2dd/FR_eh0field_2dd3.png
+  - name: remastered/field2d/fr/es0field.2dd/FR_es0field_2dd3.png
+  - name: remastered/field2d/fr/hb0field.2dd/FR_hb0field_2dd3.png
+  - name: remastered/field2d/fr/he0field.2dd/FR_he0field_2dd3.png
+  - name: remastered/field2d/fr/lk0field.2dd/FR_lk0field_2dd3.png
+  - name: remastered/field2d/fr/lm0field.2dd/FR_lm0field_2dd3.png
+  - name: remastered/field2d/fr/mu0field.2dd/FR_mu0field_2dd3.png
+  - name: remastered/field2d/fr/nm0field.2dd/FR_nm0field_2dd3.png
+  - name: remastered/field2d/fr/po0field.2dd/FR_po0field_2dd3.png
+  - name: remastered/field2d/fr/tr0field.2dd/FR_tr0field_2dd3.png
+  - name: remastered/field2d/fr/tt0field.2dd/FR_tt0field_2dd3.png
+  - name: remastered/field2d/fr/wi0field.2dd/FR_wi0field_2dd3.png
+  - name: remastered/field2d/fr/wm0field.2dd/FR_wm0field_2dd3.png
+  - name: remastered/field2d/fr/zz0field.2dd/FR_zz0field_2dd3.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_zz0field_2dd3.png
+- name: remastered/field2d/us/di0field.2dd/US_di0field_2dd2.png
+  multi:
+  - name: remastered/field2d/us/es0field.2dd/US_es0field_2dd2.png
+  - name: remastered/field2d/us/tt0field.2dd/US_tt0field_2dd2.png
+  - name: remastered/field2d/us/wm0field.2dd/US_wm0field_2dd2.png
+  - name: remastered/field2d/us/zz0field.2dd/US_zz0field_2dd2.png
+  - name: remastered/field2d/sp/di0field.2dd/SP_di0field_2dd2.png
+  - name: remastered/field2d/sp/es0field.2dd/SP_es0field_2dd2.png
+  - name: remastered/field2d/sp/tt0field.2dd/SP_tt0field_2dd2.png
+  - name: remastered/field2d/sp/wm0field.2dd/SP_wm0field_2dd2.png
+  - name: remastered/field2d/sp/zz0field.2dd/SP_zz0field_2dd2.png
+  - name: remastered/field2d/it/di0field.2dd/IT_di0field_2dd2.png
+  - name: remastered/field2d/it/es0field.2dd/IT_es0field_2dd2.png
+  - name: remastered/field2d/it/tt0field.2dd/IT_tt0field_2dd2.png
+  - name: remastered/field2d/it/wm0field.2dd/IT_wm0field_2dd2.png
+  - name: remastered/field2d/it/zz0field.2dd/IT_zz0field_2dd2.png
+  - name: remastered/field2d/gr/di0field.2dd/GR_di0field_2dd2.png
+  - name: remastered/field2d/gr/es0field.2dd/GR_es0field_2dd2.png
+  - name: remastered/field2d/gr/tt0field.2dd/GR_tt0field_2dd2.png
+  - name: remastered/field2d/gr/wm0field.2dd/GR_wm0field_2dd2.png
+  - name: remastered/field2d/gr/zz0field.2dd/GR_zz0field_2dd2.png
+  - name: remastered/field2d/fr/di0field.2dd/FR_di0field_2dd2.png
+  - name: remastered/field2d/fr/es0field.2dd/FR_es0field_2dd2.png
+  - name: remastered/field2d/fr/tt0field.2dd/FR_tt0field_2dd2.png
+  - name: remastered/field2d/fr/wm0field.2dd/FR_wm0field_2dd2.png
+  - name: remastered/field2d/fr/zz0field.2dd/FR_zz0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_zz0field_2dd2.png
+- name: remastered/field2d/us/al0field.2dd/US_al0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/al0field.2dd/SP_al0field_2dd2.png
+  - name: remastered/field2d/it/al0field.2dd/IT_al0field_2dd2.png
+  - name: remastered/field2d/gr/al0field.2dd/GR_al0field_2dd2.png
+  - name: remastered/field2d/fr/al0field.2dd/FR_al0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_al0field_2dd2.png
+- name: remastered/field2d/us/bb0field.2dd/US_bb0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/bb0field.2dd/SP_bb0field_2dd2.png
+  - name: remastered/field2d/it/bb0field.2dd/IT_bb0field_2dd2.png
+  - name: remastered/field2d/gr/bb0field.2dd/GR_bb0field_2dd2.png
+  - name: remastered/field2d/fr/bb0field.2dd/FR_bb0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_bb0field_2dd2.png
+- name: remastered/field2d/us/ca0field.2dd/US_ca0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/ca0field.2dd/SP_ca0field_2dd2.png
+  - name: remastered/field2d/it/ca0field.2dd/IT_ca0field_2dd2.png
+  - name: remastered/field2d/gr/ca0field.2dd/GR_ca0field_2dd2.png
+  - name: remastered/field2d/fr/ca0field.2dd/FR_ca0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_ca0field_2dd2.png
+- name: remastered/field2d/us/dc0field.2dd/US_dc0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/dc0field.2dd/SP_dc0field_2dd2.png
+  - name: remastered/field2d/it/dc0field.2dd/IT_dc0field_2dd2.png
+  - name: remastered/field2d/gr/dc0field.2dd/GR_dc0field_2dd2.png
+  - name: remastered/field2d/fr/dc0field.2dd/FR_dc0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_dc0field_2dd2.png
+- name: remastered/field2d/us/eh0field.2dd/US_eh0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/eh0field.2dd/SP_eh0field_2dd2.png
+  - name: remastered/field2d/it/eh0field.2dd/IT_eh0field_2dd2.png
+  - name: remastered/field2d/gr/eh0field.2dd/GR_eh0field_2dd2.png
+  - name: remastered/field2d/fr/eh0field.2dd/FR_eh0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_eh0field_2dd2.png
+- name: remastered/field2d/us/hb0field.2dd/US_hb0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/hb0field.2dd/SP_hb0field_2dd2.png
+  - name: remastered/field2d/it/hb0field.2dd/IT_hb0field_2dd2.png
+  - name: remastered/field2d/gr/hb0field.2dd/GR_hb0field_2dd2.png
+  - name: remastered/field2d/fr/hb0field.2dd/FR_hb0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_hb0field_2dd2.png
+- name: remastered/field2d/us/he0field.2dd/US_he0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/he0field.2dd/SP_he0field_2dd2.png
+  - name: remastered/field2d/it/he0field.2dd/IT_he0field_2dd2.png
+  - name: remastered/field2d/gr/he0field.2dd/GR_he0field_2dd2.png
+  - name: remastered/field2d/fr/he0field.2dd/FR_he0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_he0field_2dd2.png
+- name: remastered/field2d/us/lk0field.2dd/US_lk0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/lk0field.2dd/SP_lk0field_2dd2.png
+  - name: remastered/field2d/it/lk0field.2dd/IT_lk0field_2dd2.png
+  - name: remastered/field2d/gr/lk0field.2dd/GR_lk0field_2dd2.png
+  - name: remastered/field2d/fr/lk0field.2dd/FR_lk0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_lk0field_2dd2.png
+- name: remastered/field2d/us/lm0field.2dd/US_lm0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/lm0field.2dd/SP_lm0field_2dd2.png
+  - name: remastered/field2d/it/lm0field.2dd/IT_lm0field_2dd2.png
+  - name: remastered/field2d/gr/lm0field.2dd/GR_lm0field_2dd2.png
+  - name: remastered/field2d/fr/lm0field.2dd/FR_lm0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_lm0field_2dd2.png
+- name: remastered/field2d/us/mu0field.2dd/US_mu0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/mu0field.2dd/SP_mu0field_2dd2.png
+  - name: remastered/field2d/it/mu0field.2dd/IT_mu0field_2dd2.png
+  - name: remastered/field2d/gr/mu0field.2dd/GR_mu0field_2dd2.png
+  - name: remastered/field2d/fr/mu0field.2dd/FR_mu0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_mu0field_2dd2.png
+- name: remastered/field2d/us/nm0field.2dd/US_nm0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/nm0field.2dd/SP_nm0field_2dd2.png
+  - name: remastered/field2d/it/nm0field.2dd/IT_nm0field_2dd2.png
+  - name: remastered/field2d/gr/nm0field.2dd/GR_nm0field_2dd2.png
+  - name: remastered/field2d/fr/nm0field.2dd/FR_nm0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_nm0field_2dd2.png
+- name: remastered/field2d/us/po0field.2dd/US_po0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/po0field.2dd/SP_po0field_2dd2.png
+  - name: remastered/field2d/it/po0field.2dd/IT_po0field_2dd2.png
+  - name: remastered/field2d/gr/po0field.2dd/GR_po0field_2dd2.png
+  - name: remastered/field2d/fr/po0field.2dd/FR_po0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_po0field_2dd2.png
+- name: remastered/field2d/us/tr0field.2dd/US_tr0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/tr0field.2dd/SP_tr0field_2dd2.png
+  - name: remastered/field2d/it/tr0field.2dd/IT_tr0field_2dd2.png
+  - name: remastered/field2d/gr/tr0field.2dd/GR_tr0field_2dd2.png
+  - name: remastered/field2d/fr/tr0field.2dd/FR_tr0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_tr0field_2dd2.png
+- name: remastered/field2d/us/wi0field.2dd/US_wi0field_2dd2.png
+  multi:
+  - name: remastered/field2d/sp/wi0field.2dd/SP_wi0field_2dd2.png
+  - name: remastered/field2d/it/wi0field.2dd/IT_wi0field_2dd2.png
+  - name: remastered/field2d/gr/wi0field.2dd/GR_wi0field_2dd2.png
+  - name: remastered/field2d/fr/wi0field.2dd/FR_wi0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/US_wi0field_2dd2.png
+
+#Menu FILES
+- name: menu/us/title.2ld
+  multi:
+  - name: menu/sp/title.2ld
+  - name: menu/it/title.2ld
+  - name: menu/gr/title.2ld
+  - name: menu/fr/title.2ld
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: menu/title.2ld
+- name: remastered/menu/us/title.2ld/US_title_2ld0.png
+  multi:
+  - name: remastered/menu/sp/title.2ld/SP_title_2ld0.png
+  - name: remastered/menu/it/title.2ld/IT_title_2ld0.png
+  - name: remastered/menu/gr/title.2ld/GR_title_2ld0.png
+  - name: remastered/menu/fr/title.2ld/FR_title_2ld0.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/US_title_2ld0.png
+- name: remastered/menu/us/title.2ld/US_title_2ld1.png
+  multi:
+  - name: remastered/menu/sp/title.2ld/SP_title_2ld1.png
+  - name: remastered/menu/it/title.2ld/IT_title_2ld1.png
+  - name: remastered/menu/gr/title.2ld/GR_title_2ld1.png
+  - name: remastered/menu/fr/title.2ld/FR_title_2ld1.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/US_title_2ld1.png
+- name: remastered/menu/us/title.2ld/US_title_2ld2.png
+  multi:
+  - name: remastered/menu/sp/title.2ld/SP_title_2ld2.png
+  - name: remastered/menu/it/title.2ld/IT_title_2ld2.png
+  - name: remastered/menu/gr/title.2ld/GR_title_2ld2.png
+  - name: remastered/menu/fr/title.2ld/FR_title_2ld2.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/US_title_2ld2.png
+- name: remastered/menu/us/title.2ld/US_title_2ld3.png
+  multi:
+  - name: remastered/menu/sp/title.2ld/SP_title_2ld3.png
+  - name: remastered/menu/it/title.2ld/IT_title_2ld3.png
+  - name: remastered/menu/gr/title.2ld/GR_title_2ld3.png
+  - name: remastered/menu/fr/title.2ld/FR_title_2ld3.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/US_title_2ld3.png
+- name: remastered/menu/us/title.2ld/US_title_2ld4.png
+  multi:
+  - name: remastered/menu/sp/title.2ld/SP_title_2ld4.png
+  - name: remastered/menu/it/title.2ld/IT_title_2ld4.png
+  - name: remastered/menu/gr/title.2ld/GR_title_2ld4.png
+  - name: remastered/menu/fr/title.2ld/FR_title_2ld4.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/US_title_2ld4.png
+- name: remastered/menu/us/title.2ld/US_title_2ld5.png
+  multi:
+  - name: remastered/menu/sp/title.2ld/SP_title_2ld5.png
+  - name: remastered/menu/it/title.2ld/IT_title_2ld5.png
+  - name: remastered/menu/gr/title.2ld/GR_title_2ld5.png
+  - name: remastered/menu/fr/title.2ld/FR_title_2ld5.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/US_title_2ld5.png
+- name: remastered/menu/us/title.2ld/US_title_2ld6.png
+  multi:
+  - name: remastered/menu/sp/title.2ld/SP_title_2ld6.png
+  - name: remastered/menu/it/title.2ld/IT_title_2ld6.png
+  - name: remastered/menu/gr/title.2ld/GR_title_2ld6.png
+  - name: remastered/menu/fr/title.2ld/FR_title_2ld6.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/US_title_2ld6.png
+- name: remastered/menu/us/title.2ld/US_title_2ld7.png
+  multi:
+  - name: remastered/menu/sp/title.2ld/SP_title_2ld7.png
+  - name: remastered/menu/it/title.2ld/IT_title_2ld7.png
+  - name: remastered/menu/gr/title.2ld/GR_title_2ld7.png
+  - name: remastered/menu/fr/title.2ld/FR_title_2ld7.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/US_title_2ld7.png
+- name: remastered/menu/us/title.2ld/US_title_2ld8.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/US_title_2ld8.png
+- name: remastered/menu/sp/title.2ld/SP_title_2ld8.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/SP_title_2ld8.png
+- name: remastered/menu/it/title.2ld/IT_title_2ld8.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/IT_title_2ld8.png
+- name: remastered/menu/gr/title.2ld/GR_title_2ld8.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/GR_title_2ld8.png
+- name: remastered/menu/fr/title.2ld/FR_title_2ld8.png
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/title.2ld/FR_title_2ld8.png
+- name: menu/us/camp.2ld
+  multi:
+  - name: menu/sp/camp.2ld
+  - name: menu/it/camp.2ld
+  - name: menu/gr/camp.2ld
+  - name: menu/fr/camp.2ld
+  package: kh2_fifth
+  platform: pc
+  method: copy
+  source:
+  - name: menu/camp.2ld
+- name: remastered/menu/fr/camp.2ld/FR_camp_2ld0.png
+  package: kh2_fifth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/camp.2ld/FR_camp_2ld0.png
+- name: remastered/menu/us/camp.2ld/US_camp_2ld0.png
+  package: kh2_fifth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/camp.2ld/US_camp_2ld0.png
+- name: remastered/menu/sp/camp.2ld/SP_camp_2ld0.png
+  package: kh2_fifth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/camp.2ld/SP_camp_2ld0.png
+- name: remastered/menu/it/camp.2ld/IT_camp_2ld0.png
+  package: kh2_fifth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/camp.2ld/IT_camp_2ld0.png
+- name: remastered/menu/gr/camp.2ld/GR_camp_2ld0.png
+  package: kh2_fifth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/menu/camp.2ld/GR_camp_2ld0.png
+
+#Base Sora FILES
+- name: obj/P_EX100_TR.mdlx
+  multi:
+  - name: obj/P_EX100_TR_BTLF.mdlx
+  - name: obj/P_EX100_TR_KH1F.mdlx
+  - name: obj/P_EX100_TR_MAGF.mdlx
+  - name: obj/P_EX100_TR_TRIF.mdlx
+  - name: obj/P_EX100_TR_ULTF.mdlx
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: obj/H_EX500_TR.mdlx
+- name: obj/P_EX100_TR.mdlx
+  multi:
+  - name: obj/H_EX500_TR_BTLF.mdlx
+  - name: obj/H_EX500_TR_KH1F.mdlx
+  - name: obj/H_EX500_TR_MAGF.mdlx
+  - name: obj/H_EX500_TR_TRIF.mdlx
+  - name: obj/H_EX500_TR_ULTF.mdlx
+  package: kh2_fifth
+  platform: pc
+  method: copy
+  source:
+  - name: obj/H_EX500_TR.mdlx
+- name: obj/P_EX100.mset
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_EX100.mset
+
+#Sora Effects
+- name: obj/P_EX100.a.us
+  multi:
+  - name: obj/P_EX100_AL_CARPET.a.us
+  - name: obj/P_EX100_NM.a.us
+  - name: obj/P_EX100_TR.a.us
+  - name: obj/P_EX100_XM.a.us
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_EX100.a.us
+- name: obj/P_EX100_SIDECAR.a.fr
+  multi:
+  - name: obj/P_EX100_SIDECAR.a.gr
+  - name: obj/P_EX100_SIDECAR.a.it
+  - name: obj/P_EX100_SIDECAR.a.sp
+  - name: obj/P_EX100_SIDECAR.a.us
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_EX100_SIDECAR.a.us
+- name: remastered/obj/P_EX100.a.us/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_AL_CARPET.a.us/-0.dds
+  - name: remastered/obj/P_EX100_NM.a.us/-0.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-0.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-0.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-0.dds
+- name: remastered/obj/P_EX100.a.us/-1.dds
+  multi:
+  - name: remastered/obj/P_EX100_AL_CARPET.a.us/-1.dds
+  - name: remastered/obj/P_EX100_NM.a.us/-1.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-1.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-1.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-1.dds
+- name: remastered/obj/P_EX100.a.us/-2.dds
+  multi:
+  - name: remastered/obj/P_EX100_AL_CARPET.a.us/-2.dds
+  - name: remastered/obj/P_EX100_NM.a.us/-2.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-2.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-2.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-2.dds
+- name: remastered/obj/P_EX100.a.us/-3.dds
+  multi:
+  - name: remastered/obj/P_EX100_AL_CARPET.a.us/-3.dds
+  - name: remastered/obj/P_EX100_NM.a.us/-3.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-3.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-3.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-3.dds
+- name: remastered/obj/P_EX100.a.us/-4.dds
+  multi:
+  - name: remastered/obj/P_EX100_AL_CARPET.a.us/-4.dds
+  - name: remastered/obj/P_EX100_NM.a.us/-4.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-4.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-4.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-4.dds
+- name: remastered/obj/P_EX100.a.us/-5.dds
+  multi:
+  - name: remastered/obj/P_EX100_AL_CARPET.a.us/-5.dds
+  - name: remastered/obj/P_EX100_NM.a.us/-5.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-5.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-5.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-5.dds
+- name: remastered/obj/P_EX100.a.us/-6.dds
+  multi:
+  - name: remastered/obj/P_EX100_AL_CARPET.a.us/-6.dds
+  - name: remastered/obj/P_EX100_NM.a.us/-6.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-6.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-6.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-6.dds
+- name: remastered/obj/P_EX100.a.us/-7.dds
+  multi:
+  - name: remastered/obj/P_EX100_AL_CARPET.a.us/-7.dds
+  - name: remastered/obj/P_EX100_NM.a.us/-7.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-7.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-7.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-7.dds
+- name: remastered/obj/P_EX100.a.us/-8.dds
+  multi:
+  - name: remastered/obj/P_EX100_AL_CARPET.a.us/-8.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-8.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-8.dds
+- name: remastered/obj/P_EX100_NM.a.us/-8.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.a.us/-8.dds
+- name: remastered/obj/P_EX100_XM.a.us/-8.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM.a.us/-8.dds
+- name: remastered/obj/P_EX100_SIDECAR.a.fr/-0.png
+  multi:
+  - name: remastered/obj/P_EX100_SIDECAR.a.gr/-0.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.it/-0.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.sp/-0.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.us/-0.png
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-0.png
+- name: remastered/obj/P_EX100_SIDECAR.a.fr/-1.png
+  multi:
+  - name: remastered/obj/P_EX100_SIDECAR.a.gr/-1.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.it/-1.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.sp/-1.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.us/-1.png
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-1.png
+- name: remastered/obj/P_EX100_SIDECAR.a.fr/-2.png
+  multi:
+  - name: remastered/obj/P_EX100_SIDECAR.a.gr/-2.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.it/-2.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.sp/-2.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.us/-2.png
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-2.png
+- name: remastered/obj/P_EX100_SIDECAR.a.fr/-3.png
+  multi:
+  - name: remastered/obj/P_EX100_SIDECAR.a.gr/-3.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.it/-3.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.sp/-3.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.us/-3.png
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-3.png
+- name: remastered/obj/P_EX100_SIDECAR.a.fr/-4.png
+  multi:
+  - name: remastered/obj/P_EX100_SIDECAR.a.gr/-4.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.it/-4.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.sp/-4.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.us/-4.png
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-4.png
+- name: remastered/obj/P_EX100_SIDECAR.a.fr/-5.png
+  multi:
+  - name: remastered/obj/P_EX100_SIDECAR.a.gr/-5.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.it/-5.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.sp/-5.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.us/-5.png
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-5.png
+- name: remastered/obj/P_EX100_SIDECAR.a.fr/-6.png
+  multi:
+  - name: remastered/obj/P_EX100_SIDECAR.a.gr/-6.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.it/-6.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.sp/-6.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.us/-6.png
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-6.png
+- name: remastered/obj/P_EX100_SIDECAR.a.fr/-7.png
+  multi:
+  - name: remastered/obj/P_EX100_SIDECAR.a.gr/-7.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.it/-7.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.sp/-7.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.us/-7.png
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-7.png
+- name: remastered/obj/P_EX100_SIDECAR.a.fr/-8.png
+  multi:
+  - name: remastered/obj/P_EX100_SIDECAR.a.gr/-8.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.it/-8.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.sp/-8.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.us/-8.png
+  - name: remastered/obj/PO07_PLAYER.a.fr/-0.png
+  - name: remastered/obj/PO07_PLAYER.a.gr/-0.png
+  - name: remastered/obj/PO07_PLAYER.a.it/-0.png
+  - name: remastered/obj/PO07_PLAYER.a.sp/-0.png
+  - name: remastered/obj/PO07_PLAYER.a.us/-0.png
+  - name: remastered/obj/PO08_PLAYER.a.fr/-0.png
+  - name: remastered/obj/PO08_PLAYER.a.gr/-0.png
+  - name: remastered/obj/PO08_PLAYER.a.it/-0.png
+  - name: remastered/obj/PO08_PLAYER.a.sp/-0.png
+  - name: remastered/obj/PO08_PLAYER.a.us/-0.png
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.a.us/-8.png
+- name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
+  multi:
+  - name: remastered/obj/P_EX100_BTLF_TR.a.us/-4.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
+- name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
+  multi:
+  - name: remastered/obj/P_EX100_KH1F_TR.a.us/-9.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
+- name: remastered/obj/P_EX100_MAGF.a.us/-2.dds
+  multi:
+  - name: remastered/obj/P_EX100_MAGF_TR.a.us/-2.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_MAGF.a.us/-2.dds
+- name: remastered/obj/P_EX100_TRIF.a.us/-5.dds
+  multi:
+  - name: remastered/obj/P_EX100_TRIF_TR.a.us/-5.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_TRIF.a.us/-5.dds
+- name: remastered/obj/P_EX100_ULTF.a.us/-10.dds
+  multi:
+  - name: remastered/obj/P_EX100_ULTF_TR.a.us/-10.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_ULTF.a.us/-10.dds
+- name: remastered/obj/P_EX100_NM_BTLF.a.us/-4.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM_BTLF.a.us/-4.dds
+- name: remastered/obj/P_EX100_NM_KH1F.a.us/-9.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.a.us/-9.dds
+- name: remastered/obj/P_EX100_NM_MAGF.a.us/-2.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM_MAGF.a.us/-2.dds
+- name: remastered/obj/P_EX100_NM_TRIF.a.us/-5.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM_TRIF.a.us/-5.dds
+- name: remastered/obj/P_EX100_NM_ULTF.a.us/-10.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM_ULTF.a.us/-10.dds
+- name: remastered/obj/P_EX100_XM_BTLF.a.us/-4.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM_BTLF.a.us/-4.dds
+- name: remastered/obj/P_EX100_XM_MAGF.a.us/-2.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM_MAGF.a.us/-2.dds
+- name: remastered/obj/P_EX100_XM_TRIF.a.us/-5.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM_TRIF.a.us/-5.dds
+
+#World Point
+- name: obj/WORLD_POINT.a.us
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: obj/WORLD_POINT.a.us
+- name: remastered/obj/WORLD_POINT.a.us/-0.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/WORLD_POINT.a.us/-0.dds
+- name: remastered/obj/WORLD_POINT.a.us/-1.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/WORLD_POINT.a.us/-1.dds
+- name: remastered/obj/SAVE_POINT.a.us/-0.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/SAVE_POINT.a.us/-0.dds
+- name: remastered/obj/SAVE_POINT.a.us/-1.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/SAVE_POINT.a.us/-1.dds
+
+#Base Sora Texture
+- name: remastered/obj/ACTOR_SORA.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/ACTOR_SORA_H.mdlx/-3.dds
+  - name: remastered/obj/AL14_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/DEAD_BOSS.mdlx/-0.dds
+  - name: remastered/obj/H_EX500.mdlx/-3.dds
+  - name: remastered/obj/H_EX500_TR.mdlx/-3.dds
+  - name: remastered/obj/H_EX500_TR_BTLF.mdlx/-3.dds
+  - name: remastered/obj/H_EX500_TR_KH1F.mdlx/-3.dds
+  - name: remastered/obj/H_EX500_TR_MAGF.mdlx/-3.dds
+  - name: remastered/obj/H_EX500_TR_TRIF.mdlx/-3.dds
+  - name: remastered/obj/H_EX500_TR_ULTF.mdlx/-3.dds
+  - name: remastered/obj/LAST_ATTACKER.mdlx/-0.dds
+  - name: remastered/obj/LAST_GIMMICK.mdlx/-0.dds
+  - name: remastered/obj/LAST_HITMARK.mdlx/-0.dds
+  - name: remastered/obj/P_EX100.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_LAST.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_NPC.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR.mdlx/-0.dds
+  - name: remastered/obj/PLAYER.mdlx/-0.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/PO08_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/TR_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/WM_EX100.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-0.dds
+- name: remastered/obj/ACTOR_SORA.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/AL14_PLAYER.mdlx/-1.dds
+  - name: remastered/obj/DEAD_BOSS.mdlx/-1.dds
+  - name: remastered/obj/LAST_ATTACKER.mdlx/-1.dds
+  - name: remastered/obj/LAST_GIMMICK.mdlx/-1.dds
+  - name: remastered/obj/LAST_HITMARK.mdlx/-1.dds
+  - name: remastered/obj/P_EX100.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_LAST.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_NPC.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_TR.mdlx/-1.dds
+  - name: remastered/obj/P_LM100.mdlx/-1.dds
+  - name: remastered/obj/PLAYER.mdlx/-1.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-1.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-1.dds
+  - name: remastered/obj/PO08_PLAYER.mdlx/-1.dds
+  - name: remastered/obj/TR_PLAYER.mdlx/-1.dds
+  - name: remastered/obj/WM_EX100.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-1.dds
+- name: remastered/obj/ACTOR_SORA.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/AL14_PLAYER.mdlx/-2.dds
+  - name: remastered/obj/DEAD_BOSS.mdlx/-2.dds
+  - name: remastered/obj/LAST_ATTACKER.mdlx/-2.dds
+  - name: remastered/obj/LAST_GIMMICK.mdlx/-2.dds
+  - name: remastered/obj/LAST_HITMARK.mdlx/-2.dds
+  - name: remastered/obj/P_EX100.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_BTLF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_HTLF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_KH1F.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_LAST.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_MAGF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_NPC.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_TRIF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_ULTF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_TR.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR_BTLF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.mdlx/-3.dds
+  - name: remastered/obj/P_LM100.mdlx/-2.dds
+  - name: remastered/obj/PLAYER.mdlx/-2.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-2.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-2.dds
+  - name: remastered/obj/PO08_PLAYER.mdlx/-2.dds
+  - name: remastered/obj/TR_PLAYER.mdlx/-2.dds
+  - name: remastered/obj/WM_EX100.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-2.dds
+- name: remastered/obj/ACTOR_SORA.mdlx/-3.dds
+  multi:
+  - name: remastered/obj/AL14_PLAYER.mdlx/-3.dds
+  - name: remastered/obj/DEAD_BOSS.mdlx/-3.dds
+  - name: remastered/obj/LAST_ATTACKER.mdlx/-3.dds
+  - name: remastered/obj/LAST_GIMMICK.mdlx/-3.dds
+  - name: remastered/obj/LAST_HITMARK.mdlx/-3.dds
+  - name: remastered/obj/P_EX100.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_BTLF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_KH1F.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_LAST.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_MAGF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_NPC.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TRIF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_ULTF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_TR_BTLF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.mdlx/-4.dds
+  - name: remastered/obj/PLAYER.mdlx/-3.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-3.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-3.dds
+  - name: remastered/obj/PO08_PLAYER.mdlx/-3.dds
+  - name: remastered/obj/TR_PLAYER.mdlx/-3.dds
+  - name: remastered/obj/WM_EX100.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-3.dds
+- name: remastered/obj/ACTOR_SORA.mdlx/-4.dds
+  multi:
+  - name: remastered/obj/AL14_PLAYER.mdlx/-4.dds
+  - name: remastered/obj/DEAD_BOSS.mdlx/-4.dds
+  - name: remastered/obj/LAST_ATTACKER.mdlx/-4.dds
+  - name: remastered/obj/LAST_GIMMICK.mdlx/-4.dds
+  - name: remastered/obj/LAST_HITMARK.mdlx/-4.dds
+  - name: remastered/obj/P_EX100.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_BTLF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_KH1F.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_LAST.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_MAGF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_NPC.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_TRIF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_ULTF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_TR.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_TR_BTLF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.mdlx/-2.dds
+  - name: remastered/obj/PLAYER.mdlx/-4.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-4.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-4.dds
+  - name: remastered/obj/PO08_PLAYER.mdlx/-4.dds
+  - name: remastered/obj/TR_PLAYER.mdlx/-4.dds
+  - name: remastered/obj/WM_EX100.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-4.dds
+- name: remastered/obj/ACTOR_SORA.mdlx/-5.dds
+  multi:
+  - name: remastered/obj/AL14_PLAYER.mdlx/-5.dds
+  - name: remastered/obj/DEAD_BOSS.mdlx/-5.dds
+  - name: remastered/obj/LAST_ATTACKER.mdlx/-5.dds
+  - name: remastered/obj/LAST_GIMMICK.mdlx/-5.dds
+  - name: remastered/obj/LAST_HITMARK.mdlx/-5.dds
+  - name: remastered/obj/P_EX100.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_BTLF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_KH1F.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_LAST.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_MAGF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_NPC.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_TRIF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_ULTF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_TR.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_TR_BTLF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.mdlx/-5.dds
+  - name: remastered/obj/PLAYER.mdlx/-5.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-5.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-5.dds
+  - name: remastered/obj/PO08_PLAYER.mdlx/-5.dds
+  - name: remastered/obj/TR_PLAYER.mdlx/-5.dds
+  - name: remastered/obj/WM_EX100.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-5.dds
+- name: remastered/obj/P_EX100_BTLF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_BTLF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR_BTLF.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-0 BTLF.dds
+- name: remastered/obj/P_EX100_BTLF.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX100_TR_BTLF.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-1 BTLF.dds
+- name: remastered/obj/P_EX100_KH1F.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_KH1F.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-0 KH1F.dds
+- name: remastered/obj/P_EX100_KH1F.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX100_TR_KH1F.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-1 KH1F.dds
+- name: remastered/obj/P_EX100_MAGF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_MAGF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-0 MAGF.dds
+- name: remastered/obj/P_EX100_MAGF.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX100_TR_MAGF.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-1 MAGF.dds
+- name: remastered/obj/P_EX100_TRIF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_TRIF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-0 TRIF.dds
+- name: remastered/obj/P_EX100_TRIF.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX100_TR_TRIF.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-1 TRIF.dds
+- name: remastered/obj/P_EX100_ULTF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_ULTF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-0 ULTF.dds
+- name: remastered/obj/P_EX100_ULTF.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX100_TR_ULTF.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100.mdlx/-1 ULTF.dds
+
+- name: remastered/obj/ACTOR_SORA_H.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR.mdlx/-0.dds
+  - name: remastered/obj/H_EX630.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/H_EX500.mdlx/-0.dds
+- name: remastered/obj/ACTOR_SORA_H.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/H_EX500.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_BTLF.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_KH1F.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_MAGF.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_TRIF.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_ULTF.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_TR.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_TR_BTLF.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_TR_KH1F.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_TR_MAGF.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_TR_TRIF.mdlx/-1.dds
+  - name: remastered/obj/H_EX500_TR_ULTF.mdlx/-1.dds
+  - name: remastered/obj/H_EX630.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/H_EX500.mdlx/-1.dds
+- name: remastered/obj/ACTOR_SORA_H.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/H_EX500.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_BTLF.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_KH1F.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_MAGF.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_TRIF.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_ULTF.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_TR.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_TR_BTLF.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_TR_KH1F.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_TR_MAGF.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_TR_TRIF.mdlx/-2.dds
+  - name: remastered/obj/H_EX500_TR_ULTF.mdlx/-2.dds
+  - name: remastered/obj/H_EX630.mdlx/-0.dds
+  - name: remastered/obj/H_EX790.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/H_EX500.mdlx/-2.dds
+- name: remastered/obj/H_EX500_BTLF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_TR_BTLF.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/H_EX500.mdlx/-0 BTLF.dds
+- name: remastered/obj/H_EX500_KH1F.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_TR_KH1F.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/H_EX500.mdlx/-0 KH1F.dds
+- name: remastered/obj/H_EX500_MAGF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_TR_MAGF.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/H_EX500.mdlx/-0 MAGF.dds
+- name: remastered/obj/H_EX500_TRIF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_TR_TRIF.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/H_EX500.mdlx/-0 TRIF.dds
+- name: remastered/obj/H_EX500_ULTF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_TR_ULTF.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/H_EX500.mdlx/-0 ULTF.dds
+
+#Hallowen Sora TEX
+- name: remastered/obj/P_EX100_NM.mdlx/-5.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-5.dds
+- name: remastered/obj/P_EX100_NM_BTLF.mdlx/-5.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_BTLF.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-5 BTLF.dds
+- name: remastered/obj/P_EX100_NM_KH1F.mdlx/-5.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_KH1F.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-5 KH1F.dds
+- name: remastered/obj/P_EX100_NM_MAGF.mdlx/-5.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_MAGF.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-5 MAGF.dds
+- name: remastered/obj/P_EX100_NM_TRIF.mdlx/-5.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_TRIF.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-5 TRIF.dds
+- name: remastered/obj/P_EX100_NM_ULTF.mdlx/-5.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_ULTF.mdlx/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-5 ULTF.dds
+- name: remastered/obj/P_EX100_NM.mdlx/-6.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-6.dds
+- name: remastered/obj/P_EX100_NM_BTLF.mdlx/-6.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_BTLF.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-6 BTLF.dds
+- name: remastered/obj/P_EX100_NM_KH1F.mdlx/-6.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_KH1F.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-6 KH1F.dds
+- name: remastered/obj/P_EX100_NM_MAGF.mdlx/-6.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_MAGF.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-6 MAGF.dds
+- name: remastered/obj/P_EX100_NM_TRIF.mdlx/-6.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_TRIF.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-6 TRIF.dds
+- name: remastered/obj/P_EX100_NM_ULTF.mdlx/-6.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_ULTF.mdlx/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-6 ULTF.dds
+- name: remastered/obj/P_EX100_NM.mdlx/-8.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-8.dds
+- name: remastered/obj/P_EX100_NM_BTLF.mdlx/-8.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_BTLF.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-8 BTLF.dds
+- name: remastered/obj/P_EX100_NM_KH1F.mdlx/-8.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_KH1F.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-8 KH1F.dds
+- name: remastered/obj/P_EX100_NM_MAGF.mdlx/-8.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_MAGF.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-8 MAGF.dds
+- name: remastered/obj/P_EX100_NM_TRIF.mdlx/-8.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_TRIF.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-8 TRIF.dds
+- name: remastered/obj/P_EX100_NM_ULTF.mdlx/-8.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_ULTF.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM.mdlx/-8 ULTF.dds
+
+#Christmas Sora TEX
+- name: remastered/obj/P_EX100_XM_BTLF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_XM_BTLF.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM.mdlx/-0 BTLF.dds
+- name: remastered/obj/P_EX100_XM_MAGF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_XM_MAGF.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM.mdlx/-0 MAGF.dds
+- name: remastered/obj/P_EX100_XM_TRIF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_XM_TRIF.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM.mdlx/-0 TRIF.dds
+- name: remastered/obj/P_EX100_XM.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/H_EX500_XM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM.mdlx/-1.dds
+- name: remastered/obj/P_EX100_XM_BTLF.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/H_EX500_XM_BTLF.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM.mdlx/-1 BTLF.dds
+- name: remastered/obj/P_EX100_XM_KH1F.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/H_EX500_XM_KH1F.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM.mdlx/-1 KH1F.dds
+- name: remastered/obj/P_EX100_XM_MAGF.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/H_EX500_XM_MAGF.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM.mdlx/-1 MAGF.dds
+- name: remastered/obj/P_EX100_XM_TRIF.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/H_EX500_XM_TRIF.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM.mdlx/-1 TRIF.dds
+- name: remastered/obj/P_EX100_XM_ULTF.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/H_EX500_XM_ULTF.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM.mdlx/-1 ULTF.dds
+
+#Roxas, KH1 Sora, Lion Sora
+- name: remastered/obj/P_EX110.mdlx/-0.dds
+  package: kh2_first
+  multi:
+  - name: remastered/obj/H_EX510.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX110.mdlx/-0.dds
+- name: remastered/obj/P_EX120.mdlx/-1.dds
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/P_EX120_NPC_BLUE.mdlx/-1.dds
+  - name: remastered/obj/P_EX120_NPC_GREEN.mdlx/-1.dds
+  - name: remastered/obj/P_EX120_NPC_RED.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX120.mdlx/-1.dds
+- name: remastered/obj/H_EX790.mdlx/-3.dds
+  package: kh2_fifth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/H_EX500.mdlx/-3.dds
+- name: remastered/obj/P_LK100.mdlx/-0.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.mdlx/-0.dds
+- name: remastered/obj/P_LK100.mdlx/-1.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.mdlx/-1.dds
+- name: remastered/obj/P_LK100.a.us/-5.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-5.dds
+
+
+
+#Keyblades OBJ
+- name: obj/W_EX010.mdlx
+  method: copy
+  platform: pc
+  package: kh2_first
+  multi:
+  - name: obj/W_EX010_NM.mdlx
+    package: kh2_fifth
+  - name: obj/W_EX010_TR.mdlx
+    package: kh2_fifth
+  - name: obj/W_EX010_WI.mdlx
+    package: kh2_fifth
+  source:
+  - name: obj/W_EX010.mdlx
+- name: obj/W_EX010_40.mdlx
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: obj/W_EX010_40_NM.mdlx
+  - name: obj/W_EX010_40_TR.mdlx
+  - name: obj/W_EX010_40_WI.mdlx
+  source:
+  - name: obj/W_EX010_40.mdlx
+- name: obj/W_EX010_50.mdlx
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: obj/W_EX010_50_NM.mdlx
+  - name: obj/W_EX010_50_TR.mdlx
+  - name: obj/W_EX010_50_WI.mdlx
+  source:
+  - name: obj/W_EX010_50.mdlx
+- name: obj/W_EX010_60.mdlx
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: obj/W_EX010_60_NM.mdlx
+  - name: obj/W_EX010_60_TR.mdlx
+  - name: obj/W_EX010_60_WI.mdlx
+  source:
+  - name: obj/W_EX010_60.mdlx
+- name: obj/W_EX010_70.mdlx
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: obj/W_EX010_70_NM.mdlx
+  - name: obj/W_EX010_70_TR.mdlx
+  - name: obj/W_EX010_70_WI.mdlx
+  source:
+  - name: obj/W_EX010_70.mdlx
+- name: obj/W_EX010_80.mdlx
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: obj/W_EX010_80_NM.mdlx
+  - name: obj/W_EX010_80_TR.mdlx
+  - name: obj/W_EX010_80_WI.mdlx
+  source:
+  - name: obj/W_EX010_80.mdlx
+- name: obj/W_EX010_A0.mdlx
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: obj/W_EX010_A0_NM.mdlx
+  - name: obj/W_EX010_A0_TR.mdlx
+  - name: obj/W_EX010_A0_WI.mdlx
+  source:
+  - name: obj/W_EX010_A0.mdlx
+- name: obj/W_EX010_B0.mdlx
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: obj/W_EX010_B0_NM.mdlx
+  - name: obj/W_EX010_B0_TR.mdlx
+  - name: obj/W_EX010_B0_WI.mdlx
+  source:
+  - name: obj/W_EX010_B0.mdlx
+- name: obj/W_EX010_C0.mdlx
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: obj/W_EX010_C0_NM.mdlx
+  - name: obj/W_EX010_C0_TR.mdlx
+  - name: obj/W_EX010_C0_WI.mdlx
+  source:
+  - name: obj/W_EX010_C0.mdlx
+- name: obj/W_EX010_D0.mdlx
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: obj/W_EX010_D0_NM.mdlx
+  - name: obj/W_EX010_D0_TR.mdlx
+  - name: obj/W_EX010_D0_WI.mdlx
+  source:
+  - name: obj/W_EX010_D0.mdlx
+- name: obj/W_EX010_E0.mdlx
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: obj/W_EX010_E0_NM.mdlx
+  - name: obj/W_EX010_E0_TR.mdlx
+  - name: obj/W_EX010_E0_WI.mdlx
+  source:
+  - name: obj/W_EX010_E0.mdlx
+- name: obj/W_EX010_G0.mdlx
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: obj/W_EX010_G0_NM.mdlx
+  - name: obj/W_EX010_G0_TR.mdlx
+  - name: obj/W_EX010_G0_WI.mdlx
+  source:
+  - name: obj/W_EX010_G0.mdlx
+- name: obj/W_EX010_H0.mdlx
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: obj/W_EX010_H0_NM.mdlx
+  - name: obj/W_EX010_H0_TR.mdlx
+  - name: obj/W_EX010_H0_WI.mdlx
+  source:
+  - name: obj/W_EX010_H0.mdlx
+- name: obj/W_EX010_J0.mdlx
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: obj/W_EX010_J0_NM.mdlx
+  - name: obj/W_EX010_J0_TR.mdlx
+  - name: obj/W_EX010_J0_WI.mdlx
+  source:
+  - name: obj/W_EX010_J0.mdlx
+- name: obj/W_EX010_M0.mdlx
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: obj/W_EX010_M0_NM.mdlx
+  - name: obj/W_EX010_M0_TR.mdlx
+  - name: obj/W_EX010_M0_WI.mdlx
+  source:
+  - name: obj/W_EX010_M0.mdlx
+- name: obj/W_EX010_R0.mdlx
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: obj/W_EX010_R0_NM.mdlx
+  - name: obj/W_EX010_R0_TR.mdlx
+  - name: obj/W_EX010_R0_WI.mdlx
+  source:
+  - name: obj/W_EX010_R0.mdlx
+- name: obj/W_EX010_70.a.us
+  multi:
+  - name: obj/W_EX010_70_NM.a.us
+  - name: obj/W_EX010_70_TR.a.us
+  - name: obj/W_EX010_70_XM.a.us
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: obj/W_EX010_70.a.us
+- name: obj/W_EX010_80.a.us
+  multi:
+  - name: obj/W_EX010_80_NM.a.us
+  - name: obj/W_EX010_80_TR.a.us
+  - name: obj/W_EX010_80_XM.a.us
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: obj/W_EX010_80.a.us
+- name: obj/W_EX010_R0.a.us
+  multi:
+  - name: obj/W_EX010_R0_NM.a.us
+  - name: obj/W_EX010_R0_TR.a.us
+  - name: obj/W_EX010_R0_XM.a.us
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: obj/W_EX010_R0.a.us
+
+#Keyblades TEX
+- name: remastered/obj/W_EX010.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_first
+  multi:
+  - name: remastered/obj/W_EX010_NM.mdlx/-0.dds
+    package: kh2_fifth
+  - name: remastered/obj/W_EX010_TR.mdlx/-0.dds
+    package: kh2_fifth
+  - name: remastered/obj/W_EX010_WI.mdlx/-0.dds
+    package: kh2_fifth
+  source:
+  - name: remastered/obj/W_EX010.mdlx/-0.dds
+- name: remastered/obj/W_EX010_10.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_10_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_10_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_10_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_10.mdlx/-0.dds
+- name: remastered/obj/W_EX010_20.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_20_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_20_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_20_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_20.mdlx/-0.dds
+- name: remastered/obj/W_EX010_30.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_30_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_30_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_30_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_30.mdlx/-0.dds
+- name: remastered/obj/W_EX010_40.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_40_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_40_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_40_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_40.mdlx/-0.dds
+- name: remastered/obj/W_EX010_50.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_50_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_50_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_50_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_50.mdlx/-0.dds
+- name: remastered/obj/W_EX010_60.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_60_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_60_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_60_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_60.mdlx/-0.dds
+- name: remastered/obj/W_EX010_70.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_70_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_70_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_70_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_70.mdlx/-0.dds
+- name: remastered/obj/W_EX010_80.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_80_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_80_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_80_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_80.mdlx/-0.dds
+- name: remastered/obj/W_EX010_90.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_90_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_90_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_90_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_90.mdlx/-0.dds
+- name: remastered/obj/W_EX010_A0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_A0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_A0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_A0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_A0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_B0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_B0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_B0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_B0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_B0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_C0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/obj/W_EX010_C0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_C0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_C0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_C0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_D0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_D0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_D0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_D0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_D0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_E0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_E0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_E0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_E0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_E0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_F0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_F0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_F0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_F0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_F0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_G0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_G0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_G0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_G0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_G0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_H0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_H0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_H0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_H0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_H0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_J0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_J0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_J0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_J0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_J0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_K0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_K0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_K0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_K0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_K0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_M0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_M0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_M0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_M0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_M0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_N0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_N0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_N0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_N0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_P0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_P0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_P0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_P0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_P0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_R0.mdlx/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  multi:
+  - name: remastered/obj/W_EX010_R0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_R0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_R0_WI.mdlx/-0.dds
+  source:
+  - name: remastered/obj/W_EX010_R0.mdlx/-0.dds
+- name: remastered/obj/W_EX010_WI.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010.a.us/-0.dds
+    package: kh2_first
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010.a.us/-0.dds
+- name: remastered/obj/W_EX010_10.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_10_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_10_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_10_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_10.a.us/-1.dds
+- name: remastered/obj/W_EX010_20.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_20_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_20_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_20_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_20.a.us/-1.dds
+- name: remastered/obj/W_EX010_30.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_30_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_30_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_30_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_30.a.us/-1.dds
+- name: remastered/obj/W_EX010_60.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_60_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_60_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_60_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_60.a.us/-2.dds
+- name: remastered/obj/W_EX010_60.a.us/-3.dds
+  multi:
+  - name: remastered/obj/W_EX010_60_NM.a.us/-3.dds
+  - name: remastered/obj/W_EX010_60_TR.a.us/-3.dds
+  - name: remastered/obj/W_EX010_60_WI.a.us/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_60.a.us/-3.dds
+- name: remastered/obj/W_EX010_70.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_70_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_70_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_70_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_70.a.us/-0.dds
+- name: remastered/obj/W_EX010_70.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_70_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_70_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_70_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_70.a.us/-1.dds
+- name: remastered/obj/W_EX010_70.a.us/se/obj/se509
+  multi:
+  - name: remastered/obj/W_EX010_70_NM.a.us/se/obj/se509
+  - name: remastered/obj/W_EX010_70_TR.a.us/se/obj/se509
+  - name: remastered/obj/W_EX010_70_WI.a.us/se/obj/se509
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_70.a.us/se/obj/se509
+- name: remastered/obj/W_EX010_80.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_80_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_80_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_80_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/-0.dds
+- name: remastered/obj/W_EX010_80.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_80_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_80_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_80_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/-1.dds
+- name: remastered/obj/W_EX010_80.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_80_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_80_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_80_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/-2.dds
+- name: remastered/obj/W_EX010_80.a.us/-3.dds
+  multi:
+  - name: remastered/obj/W_EX010_80_NM.a.us/-3.dds
+  - name: remastered/obj/W_EX010_80_TR.a.us/-3.dds
+  - name: remastered/obj/W_EX010_80_WI.a.us/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/-3.dds
+- name: remastered/obj/W_EX010_80.a.us/-4.dds
+  multi:
+  - name: remastered/obj/W_EX010_80_NM.a.us/-4.dds
+  - name: remastered/obj/W_EX010_80_TR.a.us/-4.dds
+  - name: remastered/obj/W_EX010_80_WI.a.us/-4.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/-4.dds
+- name: remastered/obj/W_EX010_80.a.us/se/obj/se593
+  multi:
+  - name: remastered/obj/W_EX010_80_NM.a.us/se/obj/se593
+  - name: remastered/obj/W_EX010_80_TR.a.us/se/obj/se593
+  - name: remastered/obj/W_EX010_80_WI.a.us/se/obj/se593
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/se/obj/se593
+- name: remastered/obj/W_EX010_90.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_90_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_90_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_90_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_90.a.us/-0.dds
+- name: remastered/obj/W_EX010_90.a.us/-5.dds
+  multi:
+  - name: remastered/obj/W_EX010_90_NM.a.us/-5.dds
+  - name: remastered/obj/W_EX010_90_TR.a.us/-5.dds
+  - name: remastered/obj/W_EX010_90_WI.a.us/-5.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_90.a.us/-5.dds
+- name: remastered/obj/W_EX010_A0.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_A0_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_A0_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_A0_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_A0.a.us/-0.dds
+- name: remastered/obj/W_EX010_A0.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_A0_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_A0_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_A0_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_A0.a.us/-1.dds
+- name: remastered/obj/W_EX010_A0.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_A0_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_A0_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_A0_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_A0.a.us/-2.dds
+- name: remastered/obj/W_EX010_A0.a.us/-3.dds
+  multi:
+  - name: remastered/obj/W_EX010_A0_NM.a.us/-3.dds
+  - name: remastered/obj/W_EX010_A0_TR.a.us/-3.dds
+  - name: remastered/obj/W_EX010_A0_WI.a.us/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_A0.a.us/-3.dds
+- name: remastered/obj/W_EX010_A0.a.us/se/obj/se514
+  multi:
+  - name: remastered/obj/W_EX010_A0_NM.a.us/se/obj/se514
+  - name: remastered/obj/W_EX010_A0_TR.a.us/se/obj/se514
+  - name: remastered/obj/W_EX010_A0_WI.a.us/se/obj/se514
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_A0.a.us/se/obj/se514
+- name: remastered/obj/W_EX010_B0.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_B0_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_B0_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_B0_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_B0.a.us/-0.dds
+- name: remastered/obj/W_EX010_B0.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_B0_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_B0_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_B0_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_B0.a.us/-1.dds
+- name: remastered/obj/W_EX010_B0.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_B0_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_B0_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_B0_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_B0.a.us/-2.dds
+- name: remastered/obj/W_EX010_B0.a.us/se/obj/se515
+  multi:
+  - name: remastered/obj/W_EX010_B0_NM.a.us/se/obj/se515
+  - name: remastered/obj/W_EX010_B0_TR.a.us/se/obj/se515
+  - name: remastered/obj/W_EX010_B0_WI.a.us/se/obj/se515
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_B0.a.us/se/obj/se515
+- name: remastered/obj/W_EX010_C0.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_C0_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_C0_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_C0_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_C0.a.us/-0.dds
+- name: remastered/obj/W_EX010_C0.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_C0_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_C0_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_C0_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_C0.a.us/-1.dds
+- name: remastered/obj/W_EX010_C0.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_C0_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_C0_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_C0_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_C0.a.us/-2.dds
+- name: remastered/obj/W_EX010_D0.a.us/-3.dds
+  multi:
+  - name: remastered/obj/W_EX010_D0_NM.a.us/-3.dds
+  - name: remastered/obj/W_EX010_D0_TR.a.us/-3.dds
+  - name: remastered/obj/W_EX010_D0_WI.a.us/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_D0.a.us/-3.dds
+- name: remastered/obj/W_EX010_E0.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_E0_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_E0_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_E0_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_E0.a.us/-0.dds
+- name: remastered/obj/W_EX010_F0.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_F0_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_F0_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_F0_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_F0.a.us/-2.dds
+- name: remastered/obj/W_EX010_G0.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_G0_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_G0_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_G0_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_G0.a.us/-0.dds
+- name: remastered/obj/W_EX010_G0.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_G0_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_G0_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_G0_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_G0.a.us/-1.dds
+- name: remastered/obj/W_EX010_G0.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_G0_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_G0_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_G0_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_G0.a.us/-2.dds
+- name: remastered/obj/W_EX010_G0.a.us/-3.dds
+  multi:
+  - name: remastered/obj/W_EX010_G0_NM.a.us/-3.dds
+  - name: remastered/obj/W_EX010_G0_TR.a.us/-3.dds
+  - name: remastered/obj/W_EX010_G0_WI.a.us/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_G0.a.us/-3.dds
+- name: remastered/obj/W_EX010_G0.a.us/-4.dds
+  multi:
+  - name: remastered/obj/W_EX010_G0_NM.a.us/-4.dds
+  - name: remastered/obj/W_EX010_G0_TR.a.us/-4.dds
+  - name: remastered/obj/W_EX010_G0_WI.a.us/-4.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_G0.a.us/-4.dds
+- name: remastered/obj/W_EX010_H0.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_H0_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_H0_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_H0_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_H0.a.us/-0.dds
+- name: remastered/obj/W_EX010_H0.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_H0_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_H0_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_H0_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_H0.a.us/-1.dds
+- name: remastered/obj/W_EX010_H0.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_H0_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_H0_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_H0_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_H0.a.us/-2.dds
+- name: remastered/obj/W_EX010_H0.a.us/se/obj/se521
+  multi:
+  - name: remastered/obj/W_EX010_H0_NM.a.us/se/obj/se521
+  - name: remastered/obj/W_EX010_H0_TR.a.us/se/obj/se521
+  - name: remastered/obj/W_EX010_H0_WI.a.us/se/obj/se521
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_H0.a.us/se/obj/se521
+- name: remastered/obj/W_EX010_J0.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_J0_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_J0_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_J0_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_J0.a.us/-0.dds
+- name: remastered/obj/W_EX010_J0.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_J0_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_J0_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_J0_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_J0.a.us/-1.dds
+- name: remastered/obj/W_EX010_J0.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_J0_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_J0_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_J0_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_J0.a.us/-2.dds
+- name: remastered/obj/W_EX010_K0.a.us/-3.dds
+  multi:
+  - name: remastered/obj/W_EX010_K0_NM.a.us/-3.dds
+  - name: remastered/obj/W_EX010_K0_TR.a.us/-3.dds
+  - name: remastered/obj/W_EX010_K0_WI.a.us/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_K0.a.us/-3.dds
+- name: remastered/obj/W_EX010_M0.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_M0_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_M0_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_M0_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-0.dds
+- name: remastered/obj/W_EX010_M0.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_M0_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_M0_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_M0_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-1.dds
+- name: remastered/obj/W_EX010_M0.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_M0_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_M0_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_M0_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-2.dds
+- name: remastered/obj/W_EX010_M0.a.us/-3.dds
+  multi:
+  - name: remastered/obj/W_EX010_M0_NM.a.us/-3.dds
+  - name: remastered/obj/W_EX010_M0_TR.a.us/-3.dds
+  - name: remastered/obj/W_EX010_M0_WI.a.us/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-3.dds
+- name: remastered/obj/W_EX010_M0.a.us/-4.dds
+  multi:
+  - name: remastered/obj/W_EX010_M0_NM.a.us/-4.dds
+  - name: remastered/obj/W_EX010_M0_TR.a.us/-4.dds
+  - name: remastered/obj/W_EX010_M0_WI.a.us/-4.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-4.dds
+- name: remastered/obj/W_EX010_M0.a.us/se/obj/se524
+  multi:
+  - name: remastered/obj/W_EX010_M0_NM.a.us/se/obj/se524
+  - name: remastered/obj/W_EX010_M0_TR.a.us/se/obj/se524
+  - name: remastered/obj/W_EX010_M0_WI.a.us/se/obj/se524
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/se/obj/se524
+- name: remastered/obj/W_EX010_N0.a.us/-4.dds
+  multi:
+  - name: remastered/obj/W_EX010_N0_NM.a.us/-4.dds
+  - name: remastered/obj/W_EX010_N0_TR.a.us/-4.dds
+  - name: remastered/obj/W_EX010_N0_WI.a.us/-4.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_N0.a.us/-4.dds
+- name: remastered/obj/W_EX010_P0.a.us/-6.dds
+  multi:
+  - name: remastered/obj/W_EX010_P0_NM.a.us/-6.dds
+  - name: remastered/obj/W_EX010_P0_TR.a.us/-6.dds
+  - name: remastered/obj/W_EX010_P0_WI.a.us/-6.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_P0.a.us/-6.dds
+- name: remastered/obj/W_EX010_R0.a.us/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_RO_NM.a.us/-0.dds
+  - name: remastered/obj/W_EX010_RO_TR.a.us/-0.dds
+  - name: remastered/obj/W_EX010_RO_WI.a.us/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_R0.a.us/-0.dds
+- name: remastered/obj/W_EX010_R0.a.us/-1.dds
+  multi:
+  - name: remastered/obj/W_EX010_RO_NM.a.us/-1.dds
+  - name: remastered/obj/W_EX010_RO_TR.a.us/-1.dds
+  - name: remastered/obj/W_EX010_RO_WI.a.us/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_R0.a.us/-1.dds
+- name: remastered/obj/W_EX010_R0.a.us/-2.dds
+  multi:
+  - name: remastered/obj/W_EX010_RO_NM.a.us/-2.dds
+  - name: remastered/obj/W_EX010_RO_TR.a.us/-2.dds
+  - name: remastered/obj/W_EX010_RO_WI.a.us/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_R0.a.us/-2.dds
+- name: remastered/obj/W_EX010_R0.a.us/-3.dds
+  multi:
+  - name: remastered/obj/W_EX010_RO_NM.a.us/-3.dds
+  - name: remastered/obj/W_EX010_RO_TR.a.us/-3.dds
+  - name: remastered/obj/W_EX010_RO_WI.a.us/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_R0.a.us/-3.dds
+- name: remastered/obj/W_EX010_R0.a.us/-4.dds
+  multi:
+  - name: remastered/obj/W_EX010_RO_NM.a.us/-4.dds
+  - name: remastered/obj/W_EX010_RO_TR.a.us/-4.dds
+  - name: remastered/obj/W_EX010_RO_WI.a.us/-4.dds
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_R0.a.us/-4.dds
+- name: remastered/obj/W_EX010_R0.a.us/se/obj/se525
+  multi:
+  - name: remastered/obj/W_EX010_RO_NM.a.us/se/obj/se525
+  - name: remastered/obj/W_EX010_RO_TR.a.us/se/obj/se525
+  - name: remastered/obj/W_EX010_RO_WI.a.us/se/obj/se525
+  method: copy
+  platform: pc
+  package: kh2_sixth
+  source:
+  - name: remastered/obj/W_EX010_R0.a.us/se/obj/se525
+
+#Keyblade Icons
+- name: remastered/itempic/item-043.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-043.imd/-0.dds
+- name: remastered/itempic/item-044.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-044.imd/-0.dds
+- name: remastered/itempic/item-045.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-045.imd/-0.dds
+- name: remastered/itempic/item-046.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-046.imd/-0.dds
+- name: remastered/itempic/item-047.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-047.imd/-0.dds
+- name: remastered/itempic/item-048.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-048.imd/-0.dds
+- name: remastered/itempic/item-049.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-049.imd/-0.dds
+- name: remastered/itempic/item-050.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-050.imd/-0.dds
+- name: remastered/itempic/item-051.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-051.imd/-0.dds
+- name: remastered/itempic/item-052.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-052.imd/-0.dds
+- name: remastered/itempic/item-053.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-053.imd/-0.dds
+- name: remastered/itempic/item-054.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-054.imd/-0.dds
+- name: remastered/itempic/item-055.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-055.imd/-0.dds
+- name: remastered/itempic/item-056.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-056.imd/-0.dds
+- name: remastered/itempic/item-057.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-057.imd/-0.dds
+- name: remastered/itempic/item-058.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-058.imd/-0.dds
+- name: remastered/itempic/item-059.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-059.imd/-0.dds
+- name: remastered/itempic/item-060.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-060.imd/-0.dds
+- name: remastered/itempic/item-061.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-061.imd/-0.dds
+- name: remastered/itempic/item-062.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-062.imd/-0.dds
+- name: remastered/itempic/item-063.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-063.imd/-0.dds
+- name: remastered/itempic/item-064.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-064.imd/-0.dds
+- name: remastered/itempic/item-300.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-300.imd/-0.dds
+- name: remastered/itempic/item-301.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-301.imd/-0.dds
+
+#Magic
+- name: remastered/magic/BLIZZARD_2.mag/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/BLIZZARD_2.mag/-0.dds
+  - name: remastered/magic/BLIZZARD_2lk.mag/-0.dds
+  - name: remastered/magic/BLIZZARD_3.mag/-0.dds
+  - name: remastered/magic/BLIZZARD_3lk.mag/-0.dds
+  source:
+  - name: remastered/magic/blizzard/-0.dds
+- name: remastered/magic/BLIZZARD_2.mag/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/BLIZZARD_2.mag/-1.dds
+  - name: remastered/magic/BLIZZARD_2lk.mag/-1.dds
+  - name: remastered/magic/BLIZZARD_3.mag/-1.dds
+  - name: remastered/magic/BLIZZARD_3lk.mag/-1.dds
+  - name: remastered/magic/blizzard1.mag/-0.dds
+  source:
+  - name: remastered/magic/blizzard/-1.dds
+- name: remastered/magic/REFLECT_1.mag/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/REFLECT_1lk.mag/-0.dds
+  - name: remastered/magic/REFLECT_2lk.mag/-0.dds
+  - name: remastered/magic/REFLECT_2.mag/-0.dds
+  - name: remastered/magic/REFLECT_3lk.mag/-0.dds
+  - name: remastered/magic/REFLECT_3.mag/-0.dds
+  source:
+  - name: remastered/magic/reflect/-0.dds
+- name: remastered/magic/REFLECT_1.mag/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/REFLECT_1lk.mag/-1.dds
+  - name: remastered/magic/REFLECT_2lk.mag/-1.dds
+  - name: remastered/magic/REFLECT_2.mag/-1.dds
+  - name: remastered/magic/REFLECT_3lk.mag/-1.dds
+  - name: remastered/magic/REFLECT_3.mag/-1.dds
+  source:
+  - name: remastered/magic/reflect/-1.dds
+- name: remastered/magic/REFLECT_1.mag/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/REFLECT_1lk.mag/-2.dds
+  - name: remastered/magic/REFLECT_2lk.mag/-2.dds
+  - name: remastered/magic/REFLECT_2.mag/-2.dds
+  - name: remastered/magic/REFLECT_3lk.mag/-2.dds
+  - name: remastered/magic/REFLECT_3.mag/-2.dds
+  source:
+  - name: remastered/magic/reflect/-2.dds
+- name: remastered/magic/THUNDER_1.mag/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/THUNDER_1lk.mag/-0.dds
+  - name: remastered/magic/THUNDER_2lk.mag/-0.dds
+  - name: remastered/magic/THUNDER_2.mag/-0.dds
+  source:
+  - name: remastered/magic/thunder/-0 (2).dds
+- name: remastered/magic/THUNDER_3.mag/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/THUNDER_3lk.mag/-0.dds
+  source:
+  - name: remastered/magic/thunder/-0.dds
+- name: remastered/magic/THUNDER_3.mag/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/THUNDER_3lk.mag/-1.dds
+  source:
+  - name: remastered/magic/thunder/-1.dds
+- name: remastered/magic/THUNDER_3.mag/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/THUNDER_3lk.mag/-2.dds
+  source:
+  - name: remastered/magic/thunder/-2.dds
+- name: remastered/magic/THUNDER_3.mag/-5.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/THUNDER_3lk.mag/-5.dds
+  source:
+  - name: remastered/magic/thunder/-5.dds
+- name: remastered/magic/THUNDER_3.mag/-6.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  - name: remastered/magic/THUNDER_3lk.mag/-6.dds
+  source:
+  - name: remastered/magic/thunder/-6.dds
+
+#Maps
+- name: map/hb26.map
+  package: kh2_fifth
+  platform: pc
+  method: copy
+  source:
+  - name: map/hb26.map
+- name: remastered/map/dc00.map/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-0.dds
+- name: remastered/map/dc00.map/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-1.dds
+- name: remastered/map/dc00.map/-10.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-10.dds
+- name: remastered/map/dc00.map/-13.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-13.dds
+- name: remastered/map/dc00.map/-14.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-14.dds
+- name: remastered/map/dc00.map/-16.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-16.dds
+- name: remastered/map/dc00.map/-17.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-17.dds
+- name: remastered/map/dc00.map/-18.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-18.dds
+- name: remastered/map/dc00.map/-19.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-19.dds
+- name: remastered/map/dc00.map/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-2.dds
+- name: remastered/map/dc00.map/-20.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-20.dds
+- name: remastered/map/dc00.map/-22.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-22.dds
+- name: remastered/map/dc00.map/-23.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-23.dds
+- name: remastered/map/dc00.map/-24.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-24.dds
+- name: remastered/map/dc00.map/-25.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-25.dds
+- name: remastered/map/dc00.map/-26.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-26.dds
+- name: remastered/map/dc00.map/-27.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-27.dds
+- name: remastered/map/dc00.map/-28.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-28.dds
+- name: remastered/map/dc00.map/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-3.dds
+- name: remastered/map/dc00.map/-4.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-4.dds
+- name: remastered/map/dc00.map/-5.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-5.dds
+- name: remastered/map/dc00.map/-6.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-6.dds
+- name: remastered/map/dc00.map/-7.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-7.dds
+- name: remastered/map/dc00.map/-8.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-8.dds
+- name: remastered/map/dc00.map/-9.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/dc00.map/-9.dds
+- name: remastered/map/eh21.map/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-1.dds
+- name: remastered/map/eh21.map/-10.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-10.dds
+- name: remastered/map/eh21.map/-11.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-11.dds
+- name: remastered/map/eh21.map/-12.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-12.dds
+- name: remastered/map/eh21.map/-13.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-13.dds
+- name: remastered/map/eh21.map/-14.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-14.dds
+- name: remastered/map/eh21.map/-15.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-15.dds
+- name: remastered/map/eh21.map/-16.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-16.dds
+- name: remastered/map/eh21.map/-17.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-17.dds
+- name: remastered/map/eh21.map/-18.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-18.dds
+- name: remastered/map/eh21.map/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-2.dds
+- name: remastered/map/eh21.map/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-3.dds
+- name: remastered/map/eh21.map/-4.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-4.dds
+- name: remastered/map/eh21.map/-5.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-5.dds
+- name: remastered/map/eh21.map/-6.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-6.dds
+- name: remastered/map/eh21.map/-7.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-7.dds
+- name: remastered/map/eh21.map/-8.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-8.dds
+- name: remastered/map/eh21.map/-9.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/eh21.map/-9.dds
+- name: remastered/map/hb26.map/-0.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-0.dds
+- name: remastered/map/hb26.map/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-1.dds
+- name: remastered/map/hb26.map/-10.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-10.dds
+- name: remastered/map/hb26.map/-100.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-100.dds
+- name: remastered/map/hb26.map/-101.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-101.dds
+- name: remastered/map/hb26.map/-102.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-102.dds
+- name: remastered/map/hb26.map/-103.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-103.dds
+- name: remastered/map/hb26.map/-104.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-104.dds
+- name: remastered/map/hb26.map/-105.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-105.dds
+- name: remastered/map/hb26.map/-106.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-106.dds
+- name: remastered/map/hb26.map/-107.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-107.dds
+- name: remastered/map/hb26.map/-108.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-108.dds
+- name: remastered/map/hb26.map/-109.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-109.dds
+- name: remastered/map/hb26.map/-11.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-11.dds
+- name: remastered/map/hb26.map/-110.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-110.dds
+- name: remastered/map/hb26.map/-111.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-111.dds
+- name: remastered/map/hb26.map/-112.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-112.dds
+- name: remastered/map/hb26.map/-113.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-113.dds
+- name: remastered/map/hb26.map/-114.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-114.dds
+- name: remastered/map/hb26.map/-115.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-115.dds
+- name: remastered/map/hb26.map/-116.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-116.dds
+- name: remastered/map/hb26.map/-117.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-117.dds
+- name: remastered/map/hb26.map/-118.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-118.dds
+- name: remastered/map/hb26.map/-12.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-12.dds
+- name: remastered/map/hb26.map/-13.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-13.dds
+- name: remastered/map/hb26.map/-14.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-14.dds
+- name: remastered/map/hb26.map/-15.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-15.dds
+- name: remastered/map/hb26.map/-16.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-16.dds
+- name: remastered/map/hb26.map/-17.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-17.dds
+- name: remastered/map/hb26.map/-18.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-18.dds
+- name: remastered/map/hb26.map/-19.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-19.dds
+- name: remastered/map/hb26.map/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-2.dds
+- name: remastered/map/hb26.map/-20.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-20.dds
+- name: remastered/map/hb26.map/-21.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-21.dds
+- name: remastered/map/hb26.map/-22.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-22.dds
+- name: remastered/map/hb26.map/-23.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-23.dds
+- name: remastered/map/hb26.map/-24.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-24.dds
+- name: remastered/map/hb26.map/-25.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-25.dds
+- name: remastered/map/hb26.map/-26.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-26.dds
+- name: remastered/map/hb26.map/-27.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-27.dds
+- name: remastered/map/hb26.map/-28.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-28.dds
+- name: remastered/map/hb26.map/-29.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-29.dds
+- name: remastered/map/hb26.map/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-3.dds
+- name: remastered/map/hb26.map/-30.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-30.dds
+- name: remastered/map/hb26.map/-31.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-31.dds
+- name: remastered/map/hb26.map/-32.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-32.dds
+- name: remastered/map/hb26.map/-33.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-33.dds
+- name: remastered/map/hb26.map/-34.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-34.dds
+- name: remastered/map/hb26.map/-35.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-35.dds
+- name: remastered/map/hb26.map/-36.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-36.dds
+- name: remastered/map/hb26.map/-37.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-37.dds
+- name: remastered/map/hb26.map/-38.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-38.dds
+- name: remastered/map/hb26.map/-39.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-39.dds
+- name: remastered/map/hb26.map/-4.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-4.dds
+- name: remastered/map/hb26.map/-40.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-40.dds
+- name: remastered/map/hb26.map/-41.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-41.dds
+- name: remastered/map/hb26.map/-42.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-42.dds
+- name: remastered/map/hb26.map/-43.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-43.dds
+- name: remastered/map/hb26.map/-44.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-44.dds
+- name: remastered/map/hb26.map/-45.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-45.dds
+- name: remastered/map/hb26.map/-46.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-46.dds
+- name: remastered/map/hb26.map/-47.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-47.dds
+- name: remastered/map/hb26.map/-48.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-48.dds
+- name: remastered/map/hb26.map/-49.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-49.dds
+- name: remastered/map/hb26.map/-5.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-5.dds
+- name: remastered/map/hb26.map/-50.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-50.dds
+- name: remastered/map/hb26.map/-51.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-51.dds
+- name: remastered/map/hb26.map/-52.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-52.dds
+- name: remastered/map/hb26.map/-53.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-53.dds
+- name: remastered/map/hb26.map/-54.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-54.dds
+- name: remastered/map/hb26.map/-55.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-55.dds
+- name: remastered/map/hb26.map/-56.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-56.dds
+- name: remastered/map/hb26.map/-57.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-57.dds
+- name: remastered/map/hb26.map/-58.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-58.dds
+- name: remastered/map/hb26.map/-59.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-59.dds
+- name: remastered/map/hb26.map/-6.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-6.dds
+- name: remastered/map/hb26.map/-60.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-60.dds
+- name: remastered/map/hb26.map/-61.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-61.dds
+- name: remastered/map/hb26.map/-62.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-62.dds
+- name: remastered/map/hb26.map/-63.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-63.dds
+- name: remastered/map/hb26.map/-64.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-64.dds
+- name: remastered/map/hb26.map/-65.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-65.dds
+- name: remastered/map/hb26.map/-66.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-66.dds
+- name: remastered/map/hb26.map/-67.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-67.dds
+- name: remastered/map/hb26.map/-68.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-68.dds
+- name: remastered/map/hb26.map/-69.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-69.dds
+- name: remastered/map/hb26.map/-7.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-7.dds
+- name: remastered/map/hb26.map/-70.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-70.dds
+- name: remastered/map/hb26.map/-71.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-71.dds
+- name: remastered/map/hb26.map/-72.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-72.dds
+- name: remastered/map/hb26.map/-73.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-73.dds
+- name: remastered/map/hb26.map/-74.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-74.dds
+- name: remastered/map/hb26.map/-75.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-75.dds
+- name: remastered/map/hb26.map/-76.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-76.dds
+- name: remastered/map/hb26.map/-77.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-77.dds
+- name: remastered/map/hb26.map/-78.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-78.dds
+- name: remastered/map/hb26.map/-79.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-79.dds
+- name: remastered/map/hb26.map/-8.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-8.dds
+- name: remastered/map/hb26.map/-80.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-80.dds
+- name: remastered/map/hb26.map/-81.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-81.dds
+- name: remastered/map/hb26.map/-82.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-82.dds
+- name: remastered/map/hb26.map/-83.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-83.dds
+- name: remastered/map/hb26.map/-84.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-84.dds
+- name: remastered/map/hb26.map/-85.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-85.dds
+- name: remastered/map/hb26.map/-86.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-86.dds
+- name: remastered/map/hb26.map/-87.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-87.dds
+- name: remastered/map/hb26.map/-88.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-88.dds
+- name: remastered/map/hb26.map/-89.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-89.dds
+- name: remastered/map/hb26.map/-9.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-9.dds
+- name: remastered/map/hb26.map/-90.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-90.dds
+- name: remastered/map/hb26.map/-91.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-91.dds
+- name: remastered/map/hb26.map/-92.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-92.dds
+- name: remastered/map/hb26.map/-93.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-93.dds
+- name: remastered/map/hb26.map/-94.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-94.dds
+- name: remastered/map/hb26.map/-95.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-95.dds
+- name: remastered/map/hb26.map/-96.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-96.dds
+- name: remastered/map/hb26.map/-97.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-97.dds
+- name: remastered/map/hb26.map/-98.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-98.dds
+- name: remastered/map/hb26.map/-99.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/hb26.map/-99.dds
+- name: remastered/map/tt32.map/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-1.dds
+- name: remastered/map/tt32.map/-10.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-10.dds
+- name: remastered/map/tt32.map/-11.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-11.dds
+- name: remastered/map/tt32.map/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-2.dds
+- name: remastered/map/tt32.map/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-3.dds
+- name: remastered/map/tt32.map/-4.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-4.dds
+- name: remastered/map/tt32.map/-5.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-5.dds
+- name: remastered/map/tt32.map/-6.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-6.dds
+- name: remastered/map/tt32.map/-7.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-7.dds
+- name: remastered/map/tt32.map/-8.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-8.dds
+- name: remastered/map/tt32.map/-9.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt32.map/-9.dds
+- name: remastered/map/tt33.map/-1.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-1.dds
+- name: remastered/map/tt33.map/-10.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-10.dds
+- name: remastered/map/tt33.map/-11.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-11.dds
+- name: remastered/map/tt33.map/-12.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-12.dds
+- name: remastered/map/tt33.map/-13.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-13.dds
+- name: remastered/map/tt33.map/-14.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-14.dds
+- name: remastered/map/tt33.map/-15.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-15.dds
+- name: remastered/map/tt33.map/-16.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-16.dds
+- name: remastered/map/tt33.map/-17.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-17.dds
+- name: remastered/map/tt33.map/-18.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-18.dds
+- name: remastered/map/tt33.map/-19.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-19.dds
+- name: remastered/map/tt33.map/-2.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-2.dds
+- name: remastered/map/tt33.map/-20.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-20.dds
+- name: remastered/map/tt33.map/-21.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-21.dds
+- name: remastered/map/tt33.map/-22.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-22.dds
+- name: remastered/map/tt33.map/-23.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-23.dds
+- name: remastered/map/tt33.map/-24.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-24.dds
+- name: remastered/map/tt33.map/-25.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-25.dds
+- name: remastered/map/tt33.map/-26.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-26.dds
+- name: remastered/map/tt33.map/-27.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-27.dds
+- name: remastered/map/tt33.map/-28.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-28.dds
+- name: remastered/map/tt33.map/-3.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-3.dds
+- name: remastered/map/tt33.map/-32.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-32.dds
+- name: remastered/map/tt33.map/-33.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-33.dds
+- name: remastered/map/tt33.map/-34.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-34.dds
+- name: remastered/map/tt33.map/-35.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-35.dds
+- name: remastered/map/tt33.map/-36.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-36.dds
+- name: remastered/map/tt33.map/-37.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-37.dds
+- name: remastered/map/tt33.map/-38.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-38.dds
+- name: remastered/map/tt33.map/-39.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-39.dds
+- name: remastered/map/tt33.map/-4.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-4.dds
+- name: remastered/map/tt33.map/-40.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-40.dds
+- name: remastered/map/tt33.map/-41.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-41.dds
+- name: remastered/map/tt33.map/-42.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-42.dds
+- name: remastered/map/tt33.map/-43.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-43.dds
+- name: remastered/map/tt33.map/-44.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-44.dds
+- name: remastered/map/tt33.map/-45.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-45.dds
+- name: remastered/map/tt33.map/-7.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-7.dds
+- name: remastered/map/tt33.map/-8.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-8.dds
+- name: remastered/map/tt33.map/-9.dds
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+  - name: remastered/map/tt33.map/-9.dds
