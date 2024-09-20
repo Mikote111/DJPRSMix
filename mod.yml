@@ -849,10 +849,19 @@ assets:
   - name: obj/P_EX100_TR_ULTF.mdlx
   package: kh2_sixth
   platform: pc
-  method: copy
+  method: binarc
   source:
-  - name: obj/H_EX500_TR.mdlx
-- name: obj/P_EX100_TR.mdlx
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/p_ex_0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/tim__0.texture
+- name: obj/H_EX500_TR.mdlx
   multi:
   - name: obj/H_EX500_TR_BTLF.mdlx
   - name: obj/H_EX500_TR_KH1F.mdlx
@@ -877,12 +886,17 @@ assets:
   - name: obj/P_EX100_AL_CARPET.a.us
   - name: obj/P_EX100_NM.a.us
   - name: obj/P_EX100_TR.a.us
-  - name: obj/P_EX100_XM.a.us
   package: kh2_sixth
   platform: pc
   method: copy
   source:
   - name: obj/P_EX100.a.us
+- name: obj/P_EX100_XM.a.us
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_EX100_XM.a.us
 - name: obj/P_EX100_SIDECAR.a.fr
   multi:
   - name: obj/P_EX100_SIDECAR.a.gr
@@ -1114,7 +1128,7 @@ assets:
   - name: remastered/obj/P_EX100.a.us/-8.png
 - name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
   multi:
-  - name: remastered/obj/P_EX100_BTLF_TR.a.us/-4.dds
+  - name: remastered/obj/P_EX100_TR_BTLF.a.us/-4.dds
   package: kh2_sixth
   platform: pc
   method: copy
@@ -1122,7 +1136,7 @@ assets:
   - name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
 - name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
   multi:
-  - name: remastered/obj/P_EX100_KH1F_TR.a.us/-9.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.a.us/-9.dds
   package: kh2_sixth
   platform: pc
   method: copy
@@ -1130,7 +1144,7 @@ assets:
   - name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
 - name: remastered/obj/P_EX100_MAGF.a.us/-2.dds
   multi:
-  - name: remastered/obj/P_EX100_MAGF_TR.a.us/-2.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.a.us/-2.dds
   package: kh2_sixth
   platform: pc
   method: copy
@@ -1138,7 +1152,7 @@ assets:
   - name: remastered/obj/P_EX100_MAGF.a.us/-2.dds
 - name: remastered/obj/P_EX100_TRIF.a.us/-5.dds
   multi:
-  - name: remastered/obj/P_EX100_TRIF_TR.a.us/-5.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.a.us/-5.dds
   package: kh2_sixth
   platform: pc
   method: copy
@@ -1146,7 +1160,7 @@ assets:
   - name: remastered/obj/P_EX100_TRIF.a.us/-5.dds
 - name: remastered/obj/P_EX100_ULTF.a.us/-10.dds
   multi:
-  - name: remastered/obj/P_EX100_ULTF_TR.a.us/-10.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.a.us/-10.dds
   package: kh2_sixth
   platform: pc
   method: copy
